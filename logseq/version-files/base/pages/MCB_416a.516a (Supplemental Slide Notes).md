@@ -1,36 +1,42 @@
 ## L1 Course introduction
-	- S1: Bioinformatics and Functional Genomics Analysis
-	- S2: Who are we?
-	- S3: What do I study?
-	- S4: What about you?
-	- S5: Slido- What is Bioinformatics?
-	- S6: Sequencing data explosion (due to Next-Gen Sequencing, NGS)
-	- S7: Exponential growth of sequencing data
-	- S8: Human genome sequencing (then and now)
-	- S9: Slido- How long does it take to sequence one human genome now?
-	- S10: NGS Big Data → #Bioinformatics
-		- Bioinformatics is an interdisciplinary field that integrates biology, statistics, and computer science to analyze and interpret biological data
-	- S11: [[Functional Genomics]]
-		- Functional genomics is the study of the genome-wide, dynamic expression of gene products, including their interactions with environmental factors such as metabolites, in specific contexts that lead to distinct phenotypes, such as those observed at specific developmental stages or disease states.
-	- S12: Course scope and learning objectives
-	- S13-15: Course structure and topics
-	- S16: Course pre-requisite
-	- S17: Slido- How familiar are you with the following topics?
-	- S18: Course info/materials (D2L)
-	- S19: #Syllabus
-	- S20: Course #calendar (with topics and post-lecture #slides )
-	- S21: Course modules (including pre-lecture #slides and codes)
-	- S22: Slides, key points (beyond slide text), and lecture #recording
-		- Slide notes: [https://yao-lab-ua.github.io/MCB_416a516a](https://yao-lab-ua.github.io/MCB_416a516a)
-	- S23: Course assignments
-	- S24: Course assignments (516a only)
-	- S25: #Make-up Assignments & Final Grades
-	- S26: Slido- What do you want to get out of this course?
-	- S27: Q & A (Slido)
-	- S28: Next-Generation Sequencing (NGS) and RNA-seq Techniques [Section title]
-	- S29: Evolution of next-gen sequencing (NGS) systems
+	- S1: Bioinformatics and Functional Genomics Analysis [course title]
+	- #### Course participants
+		- S2: Who are we?
+		- S3: What do I study?
+		- S4: What about you?
+	- #### What is Bioinformatics & Functional Genomics and why is it important?
+		- S5: Slido- What is Bioinformatics?
+		- S6: Sequencing data explosion (due to Next-Gen Sequencing, NGS)
+		- S7: Exponential growth of sequencing data
+		- S8: Human genome sequencing (then and now)
+		- S9: Slido- How long does it take to sequence one human genome now?
+		- S10: NGS Big Data → #Bioinformatics
+			- Bioinformatics is an interdisciplinary field that integrates biology, statistics, and computer science to analyze and interpret biological data
+		- S11: [[Functional Genomics]]
+			- Functional genomics is the study of the genome-wide, dynamic expression of gene products, including their interactions with environmental factors such as metabolites, in specific contexts that lead to distinct phenotypes, such as those observed at specific developmental stages or disease states.
+	- #### Course content, assignments, and resources
+		- S12: Course scope and learning objectives
+		- S13-15: Course structure and topics
+		- S16: Course pre-requisite
+		- S17: Slido- How familiar are you with the following topics?
+		- S18: Course info/materials (D2L)
+		- S19: #Syllabus
+		- S20: Course #calendar (with topics and post-lecture #slides )
+		- S21: Course modules (including pre-lecture #slides and codes)
+		- S22: Slides, key points (beyond slide text), and lecture #recording
+			- Slide notes: [https://yao-lab-ua.github.io/MCB_416a516a](https://yao-lab-ua.github.io/MCB_416a516a)
+		- S23: Course assignments
+		- S24: Course assignments (516a only)
+		- S25: #Make-up Assignments & Final Grades
+		- S26: Slido- What do you want to get out of this course?
+		- S27: Q & A (Slido)
+	- #### NGS and RNA-seq technology
+		- S28: Next-Generation Sequencing (NGS) and RNA-seq Techniques [Section title]
+		- S29: Evolution of next-gen sequencing (NGS) systems
 	-
-- L2	Next-generation sequencing (NGS) and RNA-seq technology
+- ## L2	Next-generation sequencing (NGS) and RNA-seq technology
+-
+-
 - L3	Intro to RNA-seq analysis & applications
 - L4	Seq reads quality control & [HPC intro]; {Globus}
 - L5	[HPC] scheduling with SLURM script
