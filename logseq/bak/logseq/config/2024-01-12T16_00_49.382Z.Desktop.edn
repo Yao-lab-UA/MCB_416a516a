@@ -414,6 +414,6 @@
  :file/name-format :triple-lowbar
  :publishing/all-pages-public? true
  :feature/enable-journals? false
- :default-home {:page "MCB_416a.516a (outline & notes)"}
+ :default-home {:page "MCB_416a.516a (Slide Notes)"}
  :feature/enable-whiteboards? false
  :feature/enable-flashcards? false}

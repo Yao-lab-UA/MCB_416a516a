@@ -24,7 +24,7 @@
 		- S20: Course #calendar (with topics and post-lecture #slides )
 		- S21: Course modules (including pre-lecture #slides and codes)
 		- S22: Slides, key points (beyond slide text), and lecture #recording
-			- Slide notes: [https://yao-lab-ua.github.io/MCB_416a516a](https://yao-lab-ua.github.io/MCB_416a516a)
+			- Slide outline & notes: [https://yao-lab-ua.github.io/MCB_416a516a](https://yao-lab-ua.github.io/MCB_416a516a)
 		- S23: Course assignments
 		- S24: Course assignments (516a only)
 		- S25: #Make-up Assignments & Final Grades
