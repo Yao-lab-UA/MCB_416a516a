@@ -6,6 +6,8 @@
 - #Statistics
 	- Statistics and Data Science [(SDS) 363](https://www.math.arizona.edu/~jwatkins/data363s19.html)
 	- SDS 363 [Textbook](https://www.math.arizona.edu/~jwatkins/statbook.pdf)
+- #Biology
+	- [Cell and Molecular Biology for Non-Biologists: A short introduction into key biological concepts](https://www.amazon.com/gp/product/3662653559/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - RNA-seq
 	- [Introduction to differential gene expression analysis using RNA-seq](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiB3aG9jdfuAhXCGDQIHW-jDEIQFjABegQIAxAC&url=https%3A%2F%2Fchagall.med.cornell.edu%2FRNASEQcourse%2FIntro2RNAseq.pdf&usg=AOvVaw0bLmYEZ50xcwh_RKNIvEYa)
 	- [RNA-seq Data Analysis: A Practical Approach](https://www.amazon.com/RNA-seq-Data-Analysis-Mathematical-Computational/dp/1466595000/ref=sr_1_1?crid=1P2TDQXX1FK9B&keywords=RNA-seq-Data-Analysis-Mathematical-Computational&qid=1705076592&sprefix=rna-seq-data-analysis-mathematical-computational%2Caps%2C565&sr=8-1&ufe=app_do%3Aamzn1.fos.18ed3cb5-28d5-4975-8bc7-93deae8f9840)
