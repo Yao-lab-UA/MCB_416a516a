@@ -1,0 +1,29 @@
+- #[[L1: Course introduction]]
+- #[[L2	Next-generation sequencing (NGS) and RNA-seq technology]]
+- L3	Intro to RNA-seq analysis & applications
+- L4	Seq reads quality control & [HPC intro]; {Globus}
+- L5	[HPC] scheduling with SLURM script
+- L6	[HPC] FastQC Slurm script
+- L7	Filtering/trimming with fastp
+- L8	Mapping reads to reference genome (I)
+- L9	Mapping reads to reference genome (II)
+- L10	Counting mapped reads
+- L11	Counts normalization
+- L12	(R) Vector
+- L13	(R) Data frame (I)
+- L14	(R) Data frame (II) & Graph; {For loop}
+- L15	[DESeq2: generate DESeqDataSet]
+- L16	[DESeq2: rlog & Experiment-level QC]
+- L17	Differential expression (DE) analysis
+- L18	[DESeq2: DE analysis]- I
+- L19	[DESeq2: DE analysis]- II
+- L20	[DESeq2: DE analysis]- III
+- L21	Identify enriched pathways in gene lists (g:Profiler)
+- L22	hypergeometric distribution
+- L23	Identify enriched pathways in ranked gene lists (GSEA)
+- L24	GSEA demo
+- L25	Network analysis
+- L26	Single-cell RNA-seq analysis (I)
+- L27	Single-cell RNA-seq analysis (II)
+-
+- [[Supplementary Learning Materials]]
