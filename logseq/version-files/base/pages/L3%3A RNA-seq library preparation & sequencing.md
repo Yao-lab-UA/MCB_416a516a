@@ -20,7 +20,7 @@
 				- mRNA enrichment is done typically using oligo-dT beads which bind to the poly-A tail of mRNA.
 				- rRNA depletion can be done using specific probes. It is less common due to higher cost and complexity, but is a preferred method for applications where non-polyadenylated RNA species are of interest.
 			- **Fragmentation**: In this #fragmentation step, the purified mRNA is sheared into smaller pieces, so cDNAs with suitable size can be generated for sequencing.
-			- **cDNA Synthesis**: The fragmented RNA is reverse-transcribed to create complementary DNA (#cDNA).
+			- **cDNA Synthesis**: The fragmented RNA is reverse-transcribed to create complementary DNA (#cDNA ) .
 			- **End Repair and A-Tailing**: The double-stranded #cDNA is processed to have blunt ends and an added 'A' nucleotide on the 3' end for ligation.
 			- **Adapter Ligation**: #Adapters specific to the Illumina sequencing platform are ligated to the ends of the A-tailed cDNA fragments. These adapters provide:
 				- platform-specific sequences (outmost P5 & P7) for the cDNA to bind to the sequencer flow cell
@@ -38,13 +38,13 @@
 	- **S11**: #Strand-specific RNA-seq
 		- Designed to retain the information about which DNA strand the RNA transcript was synthesized from. This is important for accurately annotating the directionality of transcripts, especially for distinguishing overlapping transcripts that are encoded on opposite strands.
 		- **dUTP marking**: During the second-strand cDNA synthesis, dUTPs are incorporated instead of dTTPs. This marks the second strand of the cDNA.
-		- **UDG Digestion**: Before amplification, the dUTP-marked strand, i.e., the sense (coding) strand, is digested with the enzyme uracil-DNA glycosylase (#UDG), leaving only the antisense (template) strand.
+		- **UDG Digestion**: Before amplification, the dUTP-marked strand, i.e., the sense (coding) strand, is digested with the enzyme uracil-DNA glycosylase (#UDG ), leaving only the antisense (template) strand.
 		- PCR Amplification: using the antisense strand as the only PCR template, resulting in a library of sense-strand cDNA for sequencing.
 		- Comparison with unstranded RNA-seq: #unstranded RNA-seq sequences both cDNA strands and does not preserve the information about the transcription direction.
 	- **S12**: #[[Paired-end (PE) sequencing]] vs. #[[single-end (SE) sequencing]]
-		- Single-End Sequencing (SE): sequencing from only one end (the P5 adapter) of each single-stranded (ss)DNA attached to a flow cell, generating the #[[Read 1]] sequence (#R1).
+		- Single-End Sequencing (SE): sequencing from only one end (the P5 adapter) of each single-stranded (ss)DNA attached to a flow cell, generating the #[[Read 1]] sequence (#R1 ).
 			- Note that the #R1 sequence covers both DNA strands: the dsDNA fragment is first denatured, and each ssDNA fragment is then attached to a flow cell, followed by sequencing from its P5 adapter end.
-		- Paired-End Sequencing (PE): after the R1 sequencing from one end (the P5 adapter) of each single-stranded (ss)DNA, the flow cell is reconfigured to allow the sequencing from the other end (the P7 adapter) of the same ssDNA fragment, generating the #[[Read 2]] sequence (#R2).
+		- Paired-End Sequencing (PE): after the R1 sequencing from one end (the P5 adapter) of each single-stranded (ss)DNA, the flow cell is reconfigured to allow the sequencing from the other end (the P7 adapter) of the same ssDNA fragment, generating the #[[Read 2]] sequence (#R2 ).
 		- PE sequencing provides two reads for each ssDNA fragment attached to the flow cell, which can be used to more accurately align the reads to a reference genome, especially for short reads that may align to multiple genomic positions. This is because the known inner distance between the paired ends helps to place the reads correctly within the genome. Additionally, PE sequencing can aid in the detection of insertions and deletions (indels) by comparing the insert size to the genomic region between the paired ends.
 	- **S13**: #Slido question
 	- **S14**: Typical #biases of (Illumina) RNA-seq
