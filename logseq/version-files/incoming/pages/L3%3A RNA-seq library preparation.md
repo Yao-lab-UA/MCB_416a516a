@@ -1,0 +1,51 @@
+## Cont. from L2
+	- **S1-S3**: #Github outline/notes; #Slido QnA; #UQ 2
+- ## Sec 2.3  RNA-seq workflow: library preparation (cont.)
+	- **S4**: RNA electrophoresis result interpretation
+		- See note on S22 (for intact, partially degraded, and heavily degraded RNA)
+		- #mRNA shows a smeared profile (because of the varying sizes of tens of thousands of transcripts)
+	- **S5**: #Slido question
+	- **S6**: RNA quality (#RIN )
+		- RNA integrity number (RIN) is a measure of RNA purity and integrity, which is correlated with the 28S:18S rRNA ratio.
+		- #Electropherogram:
+			- Intact RNA is characterized by clear and distinct peaks for 18S and 28S rRNA (RIN = 10)
+			- Partially degraded RNA shows 28S and 18S rRNA peaks but with less definition.
+			- Heavily degraded RNA has a smeared profile and a much fainter residual 28S rRNA peak.
+			- Completely degraded RNA shows no distinct rRNA peaks.
+	- **S7 & S9**: #[[mRNA-seq library]] preparation
+		- Major step:
+			- **Total RNA Extraction from samples**: Total RNA includes all types of RNA within the sample.
+			- **mRNA Purification**: mRNA is isolated from total RNA using oligo-dT-based enrichment or by rRNA depletion.
+				- mRNA enrichment is done typically using oligo-dT beads which bind to the poly-A tail of mRNA.
+				- rRNA depletion can be done using specific probes. It is less common due to higher cost and complexity, but is a preferred method for applications where non-polyadenylated RNA species are of interest.
+			- **Fragmentation**: The purified mRNA is fragmented to smaller pieces, so cDNAs with suitable size can be generated for sequencing.
+			- **cDNA Synthesis**: The fragmented RNA is reverse-transcribed to create complementary DNA (cDNA).
+			- **End Repair and A-Tailing**: The double-stranded cDNA is processed to have blunt ends and an added 'A' nucleotide on the 3' end for ligation.
+			- **Adapter Ligation**: Adapters specific to the Illumina sequencing platform are ligated to the ends of the A-tailed cDNA fragments. These adapters provide:
+				- platform-specific sequences (outmost P5 & P7) for the cDNA to bind to the sequencer flow cell
+				- the sequences (innermost) for primers to bind and initiate the sequencing reactions
+				- barcode index sequences (i5, i7) that allow for identifying sequences from different samples when they are pooled together and sequenced in the same flow cell (i.e., multiplexing, to increase throughput and reduce costs).
+				- Y-shaped overhangs that help reduce adapter dimmers (adapter pairs self-ligated without cDNA insert)
+			- **Size Selection**: The cDNA fragments are selected based on the desired size to ensure uniformity in the library.
+				- Important for optimizing Illumina NGS efficiency and data quality, as large variations in insert sizes can lead to uneven PCR amplifications (and thus bias) and poor sequencer
+				  performance (fewer clusters suitable for base-calling)
+				- Also helps to remove adapter dimers
+				- Can be done with PAGE gel, SPRI magnetic beads, column cleanup, etc.
+			- **PCR Amplification**: The cDNA library is amplified (with a small number of PCR cycles, 8-12) to get sufficient material for sequencing.
+		- Note: these steps may vary based on the specific protocol or kit being used (e.g., fragmentation may be done with either RNA or cDNA), and additional steps may be included for certain applications (e.g., Strand-specific RNA-seq in S11).
+	- **S8 & S10**: #Slido question
+	- **S11**: #Strand-specific RNA-seq
+		- Designed to retain the information about which DNA strand the RNA transcript was synthesized from. This is important for accurately annotating the directionality of transcripts, especially for distinguishing overlapping transcripts that are encoded on opposite strands.
+		- **dUTP marking**: During the second-strand cDNA synthesis, dUTPs are incorporated instead of dTTPs. This marks the second strand of the cDNA.
+		- **UDG Digestion**: Before amplification, the dUTP-marked strand, i.e., the sense (coding) strand, is digested with the enzyme uracil-DNA glycosylase (UDG), leaving only the antisense (template) strand.
+		- PCR Amplification: The PCR amplification then amplifies the antisense strand as the only PCR template, resulting in a library of sense-strand cDNA for sequencing.
+		- Comparison with unstranded RNA-seq: unstranded RNA-seq sequences both cDNA strands and does not preserve the information about the transcription direction.
+	- **S12**: #[[Paired-end (PE) sequencing]] vs. #[[single-end (SE) sequencing]]
+		- Single-End Sequencing (SE): This method involves sequencing from only one end of each DNA fragment (insert). The diagram indicates that the sequencing read starts from the P5 adapter and continues through Read 1. SE sequencing is simpler but may provide less information about the DNA fragment's context within the genome.
+		  Paired-End Sequencing (PE): In contrast to SE, PE sequencing involves reading from both ends of the DNA fragment. The first read (Read 1) starts from one end (P5 adapter), and the second read (Read 2) starts from the opposite end (P7 adapter). This approach provides two reads for each DNA fragment, which can be used to more accurately align the reads to a reference genome.
+		  Advantages of PE Sequencing: The image notes that PE sequencing enables more accurate alignment, especially for short reads that may align to multiple genomic positions. This is because the known inner distance between the paired ends helps to place the reads correctly within the genome. Additionally, PE sequencing can aid in the detection of insertions and deletions (indels) by comparing the insert size to the genomic region between the paired ends.
+		  Coverage of Both DNA Strands: The lower part of the image illustrates that a single read in PE sequencing (Read 1, P5-based) covers both strands of the original double-stranded DNA (ds-DNA), which is important for obtaining a complete view of the genomic sequence.
+	- **S13**: #Slido question
+	- **S14**: Typical #biases of (Illumina) RNA-seq
+		-
+-

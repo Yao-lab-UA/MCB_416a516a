@@ -37,5 +37,6 @@
 	- S27: Q & A (#Slido )
 - # Section 2: NGS and RNA-seq techniques
 	- S28: Next-Generation Sequencing (NGS) and RNA-seq Techniques [Section title]
+	- ## Sec 2.1  NGS platforms
 	- S29: Evolution of next-gen sequencing (NGS) systems
 -

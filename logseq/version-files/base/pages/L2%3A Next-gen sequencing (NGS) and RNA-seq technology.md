@@ -1,14 +1,12 @@
--
-- # Section 2: NGS and RNA-seq techniques (cont.)
-- ## Cont. from L1
+## Cont. from L1
 	- **S1-S4**: #Slido QnA; #Github outline/notes; #UQ 1
-- ## NGS platforms
+- ## Sec 2.1  NGS platforms (cont.)
 	- **S5**: Evolution of next-gen sequencing (NGS) systems #NGS
 		- a visual representation of the exponential growth in NGS system capacity and efficiency
 	- **S6**: Illumina platform: de facto monopoly
 		- Various #NGS platforms: Roche (454), Illumina, Thermo Fisher Scientific (SOLiD and Ion Torrent)
 		- #Illumina's platforms, particularly noted for their high throughput, is currently the most popular NGS platform
-		- #[[3rd-gen seq]] (PacBio, for example) is less mature compared to NGS, but is beginning to gain popularity, particularly for applications that require long reads (we will discuss 3rd-gen seq a bit later).
+		- #[[3rd-gen seq]] (PacBio, Nanopore) is less mature compared to NGS, but is beginning to gain popularity, particularly for applications that require long reads (we will discuss 3rd-gen seq a bit later).
 	- **S7**: Further reading about NGS methods and platforms
 		- #NGS is still based on the 1st-gen #[[Sanger method]] but operates in a parallel manner, allowing for high-throughput sequencing.
 	- **S8**: 1st-gen Sequencing (#[[Sanger method]] ): the basis for NGS
@@ -29,10 +27,11 @@
 				  nucleotide to the growing DNA strand. The number of cycles determines the length of the read.
 		- #[[Parallel Sequencing]]:
 			- The SBS method enables massive parallel sequencing, allowing millions or billions of reads per run. This high-throughput capability is a significant advantage of Illumina sequencing.
-			- In this process, millions of DNA fragments are first attached to a flow cell and then amplified via repeated #[[bridge amplification]], where they bind to complementary oligos on the flow cell, forming clusters. Each cluster originates from a single DNA molecule amplified in situ.
-			- Following #[[cluster amplification]], the SBS method is employed to determine the DNA sequence of amplified DNA fragments in parallel.
+			- In this process, millions of DNA fragments are first attached to a flow cell and then amplified via #[[bridge amplification]], where they bind to complementary oligos on the flow cell and undergo solid-phase PCR.
+			- Repeated bridge amplification results in the formation of clusters, each containing ~1000 identical copies of the original molecule: #[[cluster amplification]].
+			- the SBS method is then employed to determine the DNA sequence of amplified DNA fragments in parallel.
 	- **S12**: Illumina SBS details (further reading)
-- ## Transcriptome analysis platforms
+- ## Sec 2.2  Transcriptome analysis platforms
 	- **S13**: The rise of RNA-seq in transcriptome analysis
 		- Among different #[[transcriptome analysis technologies]] (RNA microarrays, expressed sequence tag (EST) analysis, serial analysis of gene expression (SAGE), and RNA-seq), RNA-seq now surpasses other methods by a significant margin.
 	- **S14**: RNA-seq vs. Microarray
@@ -47,7 +46,7 @@
 			- #Microarrays have lower sensitivity and dynamic range compared to RNA-seq and are limited to detecting known transcripts (with transcript-specific chips)
 			- #RNA-seq has higher sensitivity and dynamic range, and it can identify novel transcripts and reveal structural variations and alternative splicing. It also provides a more accurate quantification of gene expression levels.
 	- **S15**: #Slido question
-- ## RNA-seq workflow
+- ## Sec 2.3  RNA-seq workflow
 	- **S16**: RNA-seq workflow (RNA-seq library preparation -> NGS sequencing -> RNA-seq data analysis pipeline)
 	- ### RNA and RNA-seq library preparation
 	- **S17**: #RNAs in the cell
