@@ -1,5 +1,4 @@
--
-- ## Cont. from L2
+## Cont. from L2
 	- **S1-S3**: #Github outline/notes; #Slido QnA; #UQ 2
 - ## Sec 2.3  RNA-seq workflow (cont.)
 	- **S4**: RNA electrophoresis result interpretation
@@ -22,7 +21,9 @@
 			- **Fragmentation**: In this #fragmentation step, the purified mRNA is sheared into smaller pieces, so cDNAs with suitable size can be generated for sequencing.
 			- **cDNA Synthesis**: The fragmented RNA is reverse-transcribed to create complementary DNA (#cDNA ) .
 			- **End Repair and A-Tailing**: The double-stranded #cDNA is processed to have blunt ends and an added 'A' nucleotide on the 3' end for ligation.
-			- **Adapter Ligation**: #Adapters specific to the Illumina sequencing platform are ligated to the ends of the A-tailed cDNA fragments. These adapters provide:
+			  id:: 65aaf197-2d7d-4c2f-b44c-4735068ae16e
+			- **Adapter Ligation**: Adapters specific to the Illumina sequencing platform are ligated to the ends of the A-tailed cDNA fragments. These #adapters provide:
+			  id:: 65aaf197-f4ce-47c1-98de-3180b3a3f6dc
 				- platform-specific sequences (outmost P5 & P7) for the cDNA to bind to the sequencer flow cell
 				- the sequences (innermost) for #primers to bind and initiate the sequencing reactions
 				- barcode index sequences (i5, i7) that allow for identifying sequences from different samples when they are pooled together and sequenced in the same flow cell (i.e., #multiplexing, to increase throughput and reduce costs).
@@ -41,11 +42,11 @@
 		- **UDG Digestion**: Before amplification, the dUTP-marked strand, i.e., the sense (coding) strand, is digested with the enzyme uracil-DNA glycosylase (#UDG ), leaving only the antisense (template) strand.
 		- PCR Amplification: using the antisense strand as the only PCR template, resulting in a library of sense-strand cDNA for sequencing.
 		- Comparison with unstranded RNA-seq: #unstranded RNA-seq sequences both cDNA strands and does not preserve the information about the transcription direction.
-	- **S12**: #[[Paired-end (PE) sequencing]] vs. #[[single-end (SE) sequencing]]
-		- Single-End Sequencing (SE): sequencing from only one end (the P5 adapter) of each single-stranded (ss)DNA attached to a flow cell, generating the #[[Read 1]] sequence (#R1 ).
+	- **S12**: Paired-end (PE) sequencing vs. single-end (SE) sequencing
+		- Single-End (#SE ) Sequencing: sequencing from only one end (the P5 adapter) of each single-stranded (ss)DNA attached to a flow cell, generating the #[[Read 1]] sequence (#R1 ).
 			- Note that the #R1 sequence covers both DNA strands: the dsDNA fragment is first denatured, and each ssDNA fragment is then attached to a flow cell, followed by sequencing from its P5 adapter end.
-		- Paired-End Sequencing (PE): after the R1 sequencing from one end (the P5 adapter) of each single-stranded (ss)DNA, the flow cell is reconfigured to allow the sequencing from the other end (the P7 adapter) of the same ssDNA fragment, generating the #[[Read 2]] sequence (#R2 ).
-		- PE sequencing provides two reads for each ssDNA fragment attached to the flow cell, which can be used to more accurately align the reads to a reference genome, especially for short reads that may align to multiple genomic positions. This is because the known inner distance between the paired ends helps to place the reads correctly within the genome. Additionally, PE sequencing can aid in the detection of insertions and deletions (indels) by comparing the insert size to the genomic region between the paired ends.
+		- Paired-End (#PE ) Sequencing: after the #R1 sequencing from one end (the P5 adapter) of each single-stranded (ss)DNA, the flow cell is reconfigured to allow the sequencing from the other end (the P7 adapter) of the same ssDNA fragment, generating the #[[Read 2]] sequence (#R2 ).
+		- #PE sequencing provides two reads for each ssDNA fragment attached to the flow cell, which can be used to more accurately align the reads to a reference genome, especially for short reads that may align to multiple genomic positions. This is because the known inner distance between the paired ends helps to place the reads correctly within the genome. Additionally, PE sequencing can aid in the detection of insertions and deletions (indels) by comparing the insert size to the genomic region between the paired ends.
 	- **S13**: #Slido question
 	- **S14**: Typical #biases of (Illumina) RNA-seq
 		- A. **Positional Bias**: reads towards the 3' end of RNA transcripts are often over-represented due to a) RNA degradation that often occurs at the 5' end and b) the commonly-used oligo-dT based method to purify mRNA (with 3' Poly-A) for sequencing.
