@@ -48,7 +48,7 @@
 		- Paired-End (#PE ) Sequencing: after the #R1 sequencing from one end (the P5 adapter) of each single-stranded (ss)DNA, the flow cell is reconfigured to allow the sequencing from the other end (the P7 adapter) of the same ssDNA fragment, generating the #[[Read 2]] sequence (#R2 ).
 		- #PE sequencing provides two reads for each ssDNA fragment attached to the flow cell, which can be used to more accurately align the reads to a reference genome, especially for short reads that may align to multiple genomic positions. This is because the known inner distance between the paired ends helps to place the reads correctly within the genome. Additionally, PE sequencing can aid in the detection of insertions and deletions (indels) by comparing the insert size to the genomic region between the paired ends.
 	- **S13**: #Slido question
-	- **S14**: Typical #biases of (Illumina) RNA-seq
+	- **S14**: Typical #bias of (Illumina) RNA-seq
 		- A. **Positional Bias**: reads towards the 3' end of RNA transcripts are often over-represented due to a) RNA degradation that often occurs at the 5' end and b) the commonly-used oligo-dT based method to purify mRNA (with 3' Poly-A) for sequencing.
 		- B. **Read Start Bias**: random hexamers used to initiate reverse transcription may preferentially bind to certain sequences, resulting in an uneven representation of the read start sites.
 		- C. **Fragmentation Bias**: Certain regions may be more resistant (or more sensitive) to the fragmentation method used (e.g., enzymatic digestion vs. mechanical shearing), which may lead to uneven representation of these fragments given a targeted size selection.

@@ -2,7 +2,7 @@
 - #[[L2: Next-gen sequencing (NGS) and RNA-seq technology]]
   id:: 65aa0974-0d91-4149-9062-a5e2fefb4e12
 - #[[L3: RNA-seq library preparation & sequencing]]
-- L4: [HPC intro]
+- #[[L4: [HPC intro]]]
 - L5: [HPC] scheduling with SLURM script
 - L6: [HPC] FastQC Slurm script
 - L7: Filtering/trimming with fastp

@@ -1,7 +1,7 @@
 - #[[L1: Course introduction]]
 - #[[L2: Next-gen sequencing (NGS) and RNA-seq technology]]
 - #[[L3: RNA-seq library preparation & sequencing]]
-- L4: [HPC intro]
+- #[[L4: [HPC intro]]]
 - L5: [HPC] scheduling with SLURM script
 - L6: [HPC] FastQC Slurm script
 - L7: Filtering/trimming with fastp
