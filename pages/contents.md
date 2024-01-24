@@ -1,10 +1,10 @@
 - #[[L1: Course introduction]]
 - #[[L2: Next-gen sequencing (NGS) and RNA-seq technology]]
 - #[[L3: RNA-seq library preparation & sequencing]]
-- #[[L4: [HPC intro]]]
-- L5: [HPC] scheduling with SLURM script
-- L6: [HPC] FastQC Slurm script
-- L7: Filtering/trimming with fastp
+- #[[L4: HPC intro]]
+- L5: SLURM script
+- L6: Raw reads QC with FastQC
+- L7: Filtering/trimming reads with fastp
 - L8: Mapping reads to reference genome (I)
 - L9: Mapping reads to reference genome (II)
 - L10: Counting mapped reads
@@ -12,12 +12,12 @@
 - L12: (R) Vector
 - L13: (R) Data frame (I)
 - L14: (R) Data frame (II) & Graph; {For loop}
-- L15: [DESeq2: generate DESeqDataSet]
-- L16: [DESeq2: rlog & Experiment-level QC]
+- L15: DESeq2-generate DESeqDataSet
+- L16: DESeq2-rlog & Experiment-level QC
 - L17: Differential expression (DE) analysis
-- L18: [DESeq2: DE analysis]- I
-- L19: [DESeq2: DE analysis]- II
-- L20: [DESeq2: DE analysis]- III
+- L18: DE analysis- I
+- L19: DE analysis- II
+- L20: DE analysis- III
 - L21: Identify enriched pathways in gene lists (g:Profiler)
 - L22: hypergeometric distribution
 - L23: Identify enriched pathways in ranked gene lists
