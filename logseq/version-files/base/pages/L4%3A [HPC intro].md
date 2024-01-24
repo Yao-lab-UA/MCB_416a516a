@@ -4,7 +4,7 @@
 	- **S6**: RNA-seq workflow: we now enter the sequencing data analysis part
 	- **S7**: Public sequencing data repository
 		- International Nucleotide Sequence Database Collaboration (INSDC), an international partnership between three organizations: the National Center for Biotechnology Information (NCBI/NIH) in the United States, which hosts GenBank; the European Molecular Biology Laboratory (EMBL) through the European Bioinformatics Institute (EBI), which hosts the European Nucleotide Archive (ENA); and the DNA Data Bank of Japan (DDBJ).
-		- The Sequence Read Archive (#SRA) is is part of this collaboration and serves as the main repository for high-throughput sequencing data.
+		- The Sequence Read Archive (#SRA ) is is part of this collaboration and serves as the main repository for high-throughput sequencing data.
 		- The databases act as mirrors, meaning they host the same data and provide different interfaces and routes for researchers to browse and download the data.
 		- Other resources and tools are present and provide further integration and annotations for sequencing data, such as MetaSRA and Recount.
 	- **S8**: Intro to High Performance Computing (#HPC )
