@@ -11,15 +11,18 @@
 		- #UNIX is the operating system that provides the overall system-level environment.
 		- #Bash is a #shell used within the UNIX environment. It interprets commands from users and scripts, and communicates with the UNIX kernel to execute these commands.
 		- #SLURM is a job scheduler used in HPC. It manages workloads and provides a framework for starting, executing, and monitoring submitted jobs.
-	- **S9**: UA HPC system: [https://uarizona.atlassian.net/wiki/spaces/UAHPC/overview](https://uarizona.atlassian.net/wiki/spaces/UAHPC/overview)
-		- #HPC quick start
+	- **S9**: UA #HPC system: [https://uarizona.atlassian.net/wiki/spaces/UAHPC/overview](https://uarizona.atlassian.net/wiki/spaces/UAHPC/overview)
+		- HPC quick start
 		- Running jobs with #SLURM
 		- Cheat Sheet
 	- **S10**: Check your UA HPC access and storage: https://portal.hpc.arizona.edu/portal/
-	- **S11-14**: Access UA HPC using local clients (Linux, Mac, and PC)
+	- **S11-14**: Access UA #HPC using local clients (Linux, Mac, and PC)
 		- course group: use the "ocelote" HPC cluster
-	- **S15**: Access UA HPC using web interface (OnDemand): https://ood.hpc.arizona.edu
+	- **S15**: Access UA #HPC using web interface (#OnDemand ): https://ood.hpc.arizona.edu
 	- **S16**: #UNIX file system
 		- A structured upside-down hierarchical "tree", starting with the root directory (/)
 	- **S17**:  download HPC intro.tutorial & Hello_World.slurm
-	- **S18-20**: See HPC intro.tutorial for details
+	- **S18-20**: See #HPC intro.tutorial for details
+		- S19: common #UNIX #command
+		- S20: Edit file/script using #OnDemand
+-

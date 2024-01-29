@@ -3,7 +3,7 @@
   id:: 65aa0974-0d91-4149-9062-a5e2fefb4e12
 - #[[L3: RNA-seq library preparation & sequencing]]
 - #[[L4: HPC intro]]
-- L5: SLURM script
+- #[[L5: HPC intro (cont.) & SLURM script]]
 - L6: Raw reads QC with FastQC
 - L7: Filtering/trimming reads with fastp
 - L8: Mapping reads to reference genome (I)
@@ -16,9 +16,9 @@
 - L15: DESeq2-generate DESeqDataSet
 - L16: DESeq2-rlog & Experiment-level QC
 - L17: Differential expression (DE) analysis
-- L18: DE analysis- I
-- L19: DE analysis- II
-- L20: DE analysis- III
+- L18: DE analysis (with DESeq2) - I
+- L19: DE analysis (with DESeq2) - II
+- L20: DE analysis (with DESeq2) - III
 - L21: Identify enriched pathways in gene lists (g:Profiler)
 - L22: hypergeometric distribution
 - L23: Identify enriched pathways in ranked gene lists

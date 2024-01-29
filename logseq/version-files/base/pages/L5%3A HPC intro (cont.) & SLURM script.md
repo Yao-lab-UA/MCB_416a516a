@@ -1,0 +1,39 @@
+## Cont. from L4
+	- **S1-S2**: Course #recording; #UQ 3
+- # Section 3: HPC Intro (cont.)
+  id:: 843588af-52c9-43aa-936e-1a5461113962
+	- **S3**: #OnDemand #HPC interface: Copy/Move files
+	  id:: 65b6d961-6a44-4ad4-b8ec-46d8e969e2f6
+		- File > Copy/Move (button)
+		- Clusters > Shell > #command line `cp path1/file1 path2/file2`
+	- **S4**: #HPC tutorial (cont.)
+		- #SLURM #job operations
+			- `sbatch`
+			- `squeue`
+			- `scancel`
+			- `sacct`
+		- #UNIX #command features
+			- case-Sensitive
+			- Tab completion
+			- backward/forward command completion (up/down arrow)
+	- **S5**: Group exercise
+		- ((65b6d961-6a44-4ad4-b8ec-46d8e969e2f6))
+	- **S6**: #SLURM - detailed online explanation
+	- **S7**: Hello_World.slurm script
+		- Part 1 (top): #SLURM batch job directives
+		- Part 2 (bottom): #Bash #command
+	-
+- # Section 4: Sequencing Databases & Access
+	- **S8**: Section title
+	- **S9**: Sequence Databases, Hierarchies, and Accession numbers
+		- **Data Types and Repositories:**
+			- Next-generation raw reads -> Sequence Read Archive (SRA) across NCBI, EMBL-EBI, and DDBJ
+			- Annotated sequences -> GeneBank, ENA, DDBJ databases
+			- Sample metadata -> BioSample databases
+			- Study metadata -> BioProject databases
+		- **Hierarchies and Accession Numbers:** #accession
+			- BioProject (**PRJN**, PRJE, PRJD)
+				- -> Study (**SRP**, ERP, DRP) ... about a paper
+					- -> Samples (**SRS**, ERS, DRS)/BioSample (**SAMN**, SAME, SAMD)
+						- -> Experiment (**SRX**, ERX, DRX) ... with one sequencing library
+							- -> Run (**SRR**, ERR, DRR)
