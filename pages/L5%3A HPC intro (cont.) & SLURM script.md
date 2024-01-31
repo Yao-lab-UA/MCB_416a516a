@@ -26,6 +26,7 @@
 - # Section 4: Sequencing Databases & Access
 	- **S8**: Section title
 	- **S9**: Sequence Databases, Hierarchies, and Accession numbers
+	  id:: 65b6e90e-d812-4fef-99bb-8cb73f893d4a
 		- **Data Types and Repositories:**
 			- Next-generation raw reads -> Sequence Read Archive (SRA) across NCBI, EMBL-EBI, and DDBJ
 			- Annotated sequences -> GeneBank, ENA, DDBJ databases

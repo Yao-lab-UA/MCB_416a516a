@@ -1,0 +1,32 @@
+## Cont. from L5
+	- **S1-S2**: Questions and feedback (#Slido link); #UQ 4
+- # Section 4: Sequencing database access & file transfer (cont.)
+	- **S3**: Cont. from L5, S9
+		- ((65b6e90e-d812-4fef-99bb-8cb73f893d4a))
+	- **S4**: #Slido question
+	- **S5**: Example RNA-seq data
+		- d0: control (growing fibroblast cells)
+		- d2-16: quiescent (sleeping) fibroblasts under serum starvation for 2-16 days
+	- **S6**: From #GEO accession number to raw read files *via SRA*
+		- GEO accession -> SRP -> SRX -> SRR
+	- **S7-8**: From GEO accession number to raw read files *via ENA*
+		- GEO accession -> SRP/PRJNA -> TSV table
+			- Open TSV using Excel, then sort by run_accession
+	- **S9**: Transfer sequencing files (from ENA) to HPC using #wget
+		- transfer one file: `wget file_URL`
+		- transfer multiple files `wget -i list_of_URLs`
+			- Each URL needs to be on a separate line
+			- Use Word to reformat the URL list
+		- more on wget: https://linuxize.com/post/wget-command-examples/
+		- more on ENA data retrieval: https://ena-docs.readthedocs.io/en/latest/retrieval/file-download.html
+	- **S10-11**: Transfer sequencing files (from ENA) to HPC using #Globus
+		- https://www.globus.org/
+		- While wget is the simplest tool to use to transfer files from online databases to HPC, Globus is particularly effective for large-scale data transfers. Globus manages file transfers, monitors performance, retries failures, recovers from faults automatically when possible, and reports the status of your data transfer.
+		- Both wget and Globus are "fire-and-forget" tools: once initiated, they will continue to download the file even if you log out or close the terminal window. Both can handle network interruptions and continue downloading where they left off when the network connection is restored. However, wget doesn't have features such as automatic fault recovery, performance monitoring, etc. that Globus has.
+		- Globus also provides a Command Line Interface (CLI), available as a Python package, which allows selecting and transferring multiple files or directories at once, beyond its graphic interface capacity.
+	- **S12**: #HW 1 description
+	- # Section 5: Sequencing reads QC
+	- **S13**: Section title
+	- **S14**: Quality problems at the read/sequence level
+	- **S15**: #FastQC.slurm
+-

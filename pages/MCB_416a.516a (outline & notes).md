@@ -4,8 +4,8 @@
 - #[[L3: RNA-seq library preparation & sequencing]]
 - #[[L4: HPC intro]]
 - #[[L5: HPC intro (cont.) & SLURM script]]
-- L6: Raw reads QC with FastQC
-- L7: Filtering/trimming reads with fastp
+- #[[L6: Seq database access & file transfer]]
+- L7: Reads QC (fastQC) & filtering/trimming (fastp)
 - L8: Mapping reads to reference genome (I)
 - L9: Mapping reads to reference genome (II)
 - L10: Counting mapped reads
