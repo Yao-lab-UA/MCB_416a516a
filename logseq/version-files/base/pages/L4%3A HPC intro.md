@@ -1,4 +1,4 @@
-## Cont. from L2
+## Cont. from L3
 	- **S1-S5**: CoS public lecture series; #Github outline/notes; #UQ 2 (explanation), #UQ 3
 - # Section 3: HPC Introduction
 	- **S6**: RNA-seq workflow: we now enter the sequencing data analysis part

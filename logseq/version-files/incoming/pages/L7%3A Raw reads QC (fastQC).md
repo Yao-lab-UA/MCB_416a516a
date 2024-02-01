@@ -1,4 +1,4 @@
-## Cont. from L6
+## Cont. from L5
 	- **S1-4: Questions and feedback (#Slido link); #HW 1 QnA; #UQ 4 answer; #UQ 5
 - # Section 5: Sequencing reads QC (cont.)
 	- **S5**: **QC**/preprocessing software **packages**
