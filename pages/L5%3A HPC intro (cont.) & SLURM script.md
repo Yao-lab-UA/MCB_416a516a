@@ -15,7 +15,9 @@
 		- #UNIX #command features
 			- case-Sensitive
 			- Tab completion
-			- backward/forward command completion (up/down arrow)
+				- a feature that allows users to type the first few characters of a filename, command, program, etc., and the system will fill in the rest, depending on the specific shell configuration
+					- If only part of the name completes, that means there are multiple options, and typing Tab again will give you the options that the shell is considering
+			- backward/forward command history navigation (up/down arrow)
 	- **S5**: Group exercise
 		- ((65b6d961-6a44-4ad4-b8ec-46d8e969e2f6))
 	- **S6**: #SLURM - detailed online explanation

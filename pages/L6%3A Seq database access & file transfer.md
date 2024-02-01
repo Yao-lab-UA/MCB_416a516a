@@ -1,5 +1,5 @@
 ## Cont. from L5
-	- **S1-S2**: Questions and feedback (#Slido link); #UQ 4
+	- **S1-2: Questions and feedback (#Slido link); #UQ 4
 - # Section 4: Sequencing database access & file transfer (cont.)
 	- **S3**: Cont. from L5, S9
 		- ((65b6e90e-d812-4fef-99bb-8cb73f893d4a))
