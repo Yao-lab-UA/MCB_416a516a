@@ -53,7 +53,8 @@
 		- the proportion of each base (A, T, G, C) at each position across all reads. It can help identify issues like sequencing bias or contamination.
 	- **S19**: More #FastQC report modules
 		- [http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/)
-		-
 	- S20: Bad Reads: Filtering vs Trimming -- we will re-explain this slide in the next class
+	- ---
+	- L7 #[[Concept Graph]]
 	- ![image.png](../assets/image_1706837905130_0.png)
 	-
