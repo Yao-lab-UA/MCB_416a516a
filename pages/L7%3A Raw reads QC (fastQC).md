@@ -55,5 +55,5 @@
 		- [http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/)
 		-
 	- S20: Bad Reads: Filtering vs Trimming -- we will re-explain this slide in the next class
-	- ___
-	- ![image.png](../assets/image_1706837068359_0.png)
+	- ![image.png](../assets/image_1706837905130_0.png)
+	-
