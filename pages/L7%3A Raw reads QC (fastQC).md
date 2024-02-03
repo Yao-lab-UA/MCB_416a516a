@@ -16,10 +16,12 @@
 				- Define a variable by simply assigning a value (in quotes) to a name without spaces around the equals sign: `variable_name="value"`
 				- Access the value of a variable by using a dollar sign `$` before the variable name: `$variable_name`
 			- Note the commands used to load the #FastQC module and execute the analysis (by defining the input file paths and the output directory)
-	- ![🖼 Slide7.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide7.JPG)
+			-
+	- ![Slide7.JPG](../assets/Slide7_1706977892639_0.JPG)
 		- Check the #fastQC output files
 			- The html file needs to be downloaded to your local computer to view in a browser
-	- ![🖼 Slide8.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide8.JPG)
+			-
+	- ![Slide8.JPG](../assets/Slide8_1706977909153_0.JPG)
 		- FastQC Report- Per base sequence quality (see S15 for detail)
 	- ![🖼 Slide9.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide9.JPG)
 		- The structure of a #FASTQ file (the standard format for #NGS data).
