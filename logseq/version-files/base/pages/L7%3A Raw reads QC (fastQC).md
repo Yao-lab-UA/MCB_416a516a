@@ -1,13 +1,17 @@
 ## Cont. from L6
-	- ![🖼 Slide1.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide1.JPG) #Slido
-	- ![🖼 Slide2.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide2.JPG) #HW 1 (QnA)
-	- ![🖼 Slide3.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide3.JPG) #UQ 4
-	- ![🖼 Slide4.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide4.JPG) #UQ 5
+	- ![Slide1.JPG](../assets/Slide1_1706977994505_0.JPG) #Slido
+	-
+	- ![Slide2.JPG](../assets/Slide2_1706978008690_0.JPG) #HW 1 (QnA)
+	-
+	- ![Slide3.JPG](../assets/Slide3_1706978092537_0.JPG) #UQ 4
+	-
+	- ![Slide4.JPG](../assets/Slide4_1706978123602_0.JPG) #UQ 5
+-
 - # Section 5: Sequencing reads QC (cont.)
 	- ![Slide5.JPG](../assets/Slide5_1706977518743_0.JPG)
 		- Various software tools are available for the quality control and preprocessing of sequencing data.
 			- #FastQC: A widely-used tool for assessing the quality of raw sequencing data, providing a modular set of analyses to report on data quality and potential issues. More info at: [http://www.bioinformatics.babraham.ac.uk/projects/fastqc/](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-			-
+	-
 	- ![Slide6.JPG](../assets/Slide6_1706977834483_0.JPG)
 		- An example SLURM script to run FastQC on HPC
 		- Line 3-12: #SBATCH directives for HPC resource allocation
@@ -16,21 +20,23 @@
 				- Define a variable by simply assigning a value (in quotes) to a name without spaces around the equals sign: `variable_name="value"`
 				- Access the value of a variable by using a dollar sign `$` before the variable name: `$variable_name`
 			- Note the commands used to load the #FastQC module and execute the analysis (by defining the input file paths and the output directory)
-			-
+	-
 	- ![Slide7.JPG](../assets/Slide7_1706977892639_0.JPG)
 		- Check the #fastQC output files
 			- The html file needs to be downloaded to your local computer to view in a browser
-			-
+	-
 	- ![Slide8.JPG](../assets/Slide8_1706977909153_0.JPG)
 		- FastQC Report- Per base sequence quality (see S15 for detail)
-	- ![🖼 Slide9.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide9.JPG)
+	-
+	- ![Slide9.JPG](../assets/Slide9_1706978286959_0.JPG)
 		- The structure of a #FASTQ file (the standard format for #NGS data).
 			- four lines per sequence entry: the identifier line, the raw nucleotide sequence, a separator (often a '+'), and the corresponding #[[base quality scores]] (Q) in #ASCII symbols
 				- The base quality scores are ASCII-encoded, representing the probability of an incorrect base call.
 			- FASTQ is basically the traditional #FASTA format (as you see in GenBank) plus the per-base quality scores
-	- ![🖼 Slide10.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide10.JPG)
-	- ![🖼 Slide11.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide11.JPG)
-	- ![🖼 Slide12.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide12.JPG)
+	-
+	- ![Slide10.JPG](../assets/Slide10_1706978323632_0.JPG)
+	- ![Slide11.JPG](../assets/Slide11_1706978330316_0.JPG)
+	- ![Slide12.JPG](../assets/Slide12_1706978337887_0.JPG)
 		- #[[base quality scores]] in #[[Phred score]] and #ASCII formats
 			- #[[base call error probability]] (P) is converted, using a negative logarithmic transformation, into a Phred score = `-10*log10(P)`
 				- a higher Phred score indicates a lower base call error probability, thus a higher quality of the base call.
@@ -45,28 +51,35 @@
 				- `Q = -10*log10(P)`
 				- `P = 10^(Q/(-10))`
 				- Q here refers to Phred score Q, not ASCII quality score Q (as in FASTQ)
-	- ![🖼 Slide13.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide13.JPG) #Slido
-	- ![🖼 Slide14.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide14.JPG)
+	-
+	- ![Slide13.JPG](../assets/Slide13_1706978376469_0.JPG) #Slido
+	-
+	- ![Slide14.JPG](../assets/Slide14_1706978387768_0.JPG)
 		- Different #encoding systems for #[[base quality scores]]
 			- Sanger (Phred+33)
 			- Solexa and earlier Illumina versions (Phred+64)
 			- Illumina (v1.8 and newer):  Phred+33
-	- ![🖼 Slide15.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide15.JPG)
+	-
+	- ![Slide15.JPG](../assets/Slide15_1706978451751_0.JPG)
 		- #FastQC Report- Per base sequence quality
 			- the quality (#[[Phred score]], y-axis) of sequencing reads at each base position (x-axis) across all reads.
 				- Green region: Very good, with Phred score > 28 (Q28)
 				- Orange region: OK/reasonable, with Phred score > 20 (Q20)
 				- Red region: Poor/bad, with Phred score < 20 (Q20)
-	- ![🖼 Slide16.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide16.JPG)
+	-
+	- ![Slide16.JPG](../assets/Slide16_1706978478065_0.JPG)
 		- #FastQC Report- Per sequence quality scores
 			- the distribution histogram of the following: the mean #[[Phred score]] of each sequencing read (in a FASTQ file)
-	- ![🖼 Slide17.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide17.JPG) #Slido
-	- ![🖼 Slide18.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide18.JPG)
+	-
+	- ![Slide17.JPG](../assets/Slide17_1706978490345_0.JPG) #Slido
+	-
+	- ![Slide18.JPG](../assets/Slide18_1706978508652_0.JPG)
 		- #FastQC Report- Per Base Sequence Content
 			- the proportion of each base (A, T, G, C) at each position across all reads. It can help identify issues like sequencing bias or contamination.
-	- ![🖼 Slide19.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide19.JPG)
+	-
+	- ![Slide19.JPG](../assets/Slide19_1706978529987_0.JPG)
 		- More #FastQC report modules: [http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/)
-	- ![🖼 Slide20.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide20.JPG)
-		- We will re-explain this slide in the next class
+	-
+	- ![Slide20.JPG](../assets/Slide20_1706978606078_0.JPG)
 -
-- L7 #[[Concept Graph]] ![image.png](../assets/image_1706837905130_0.png){:height 1000, :width 649}
+- **L7** #[[Concept Graph]] ![image.png](../assets/image_1706837905130_0.png){:height 1000, :width 649}
