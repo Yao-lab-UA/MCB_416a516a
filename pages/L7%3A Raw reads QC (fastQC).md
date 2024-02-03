@@ -4,7 +4,7 @@
 	- ![🖼 Slide3.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide3.JPG) #UQ 4
 	- ![🖼 Slide4.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide4.JPG) #UQ 5
 - # Section 5: Sequencing reads QC (cont.)
-	- ![🖼 Slide5.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide5.JPG)
+	- ![Slide5.JPG](../assets/Slide5_1706977518743_0.JPG)
 	- ![L7_Page_05.png](../assets/L7_Page_05_1706977102893_0.png)
 	-
 		- Various software tools are available for the quality control and preprocessing of sequencing data.
