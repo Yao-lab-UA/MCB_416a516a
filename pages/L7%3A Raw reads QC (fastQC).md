@@ -5,8 +5,11 @@
 	- ![🖼 Slide4.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide4.JPG) #UQ 5
 - # Section 5: Sequencing reads QC (cont.)
 	- ![🖼 Slide5.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide5.JPG)
+	- ![L7_Page_05.png](../assets/L7_Page_05_1706977102893_0.png)
+	-
 		- Various software tools are available for the quality control and preprocessing of sequencing data.
 			- #FastQC: A widely-used tool for assessing the quality of raw sequencing data, providing a modular set of analyses to report on data quality and potential issues. More info at: [http://www.bioinformatics.babraham.ac.uk/projects/fastqc/](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+		- ![🖼 L7_Page_05.png](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7_Page_05.png)
 	- ![🖼 Slide6.JPG](file://C:\Users\guang\Dropbox\teaching\MCB.416A_516A\Slides\D2L post\tmp\L7\Slide6.JPG) #FastQC.slurm
 		- An example SLURM script to run FastQC on HPC
 		- Line 3-12: #SBATCH directives for HPC resource allocation
