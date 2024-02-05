@@ -1,7 +1,7 @@
 ## Cont. from L6
 	- ![Slide1.JPG](../assets/Slide1_1706977994505_0.JPG) #Slido
 	-
-	- ![Slide2.JPG](../assets/Slide2_1706978008690_0.JPG) #HW 1 (QnA)
+	- ![Slide2.JPG](../assets/Slide2_1706978008690_0.JPG) #HW1 (QnA)
 	-
 	- ![Slide3.JPG](../assets/Slide3_1706978092537_0.JPG) #UQ 4
 	-

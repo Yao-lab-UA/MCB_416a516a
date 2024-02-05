@@ -24,7 +24,7 @@
 		- While wget is the simplest tool to use to transfer files from online databases to HPC, Globus is particularly effective for large-scale data transfers. Globus manages file transfers, monitors performance, retries failures, recovers from faults automatically when possible, and reports the status of your data transfer.
 		- Both wget and Globus are "fire-and-forget" tools: once initiated, they will continue to download the file even if you log out or close the terminal window. Both can handle network interruptions and continue downloading where they left off when the network connection is restored. However, wget doesn't have features such as automatic fault recovery, performance monitoring, etc. that Globus has.
 		- Globus also provides a Command Line Interface (CLI), available as a Python package, which allows selecting and transferring multiple files or directories at once, beyond its graphic interface capacity.
-	- **S12**: #HW 1 description
+	- **S12**: #HW1 description
 	- # Section 5: Sequencing reads QC
 	- **S13**: Section title
 	- **S14**: Quality problems at the read/sequence level

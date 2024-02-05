@@ -1,0 +1,12 @@
+- Description
+	- Identify the RNA-seq read files associated with Days 0 (control), 2, 4, 8, and 16 in the GEO dataset GSE124109
+	- Transfer these read files (3 sample files per day of experiment), and only these files, to the following directory: `/xdisk/guangyao/416a516a/HW1/yourNetID`
+	- List all files in your directory above, showing file names, sizes, and creation times, and submit the screenshot (starting with the UNIX command used) to the HW1 folder in D2L
+	- Due: Feb 13, 11:59 pm (15 pts)
+-
+- Note
+	- Use your actual NetID instead of "yourNetID" as your directory name
+	- It's ok if you have additional URL list (text) file(s) in your directory
+	- If you use `wget -i` and run into an error showing your list of URLs is separated with `\r`, run the following command line in HPC to translate the `\r` to `\n` at the end of the line to make it compatible with wget
+		- `tr '\r' '\n' < OriginalListOfURLs.txt > newList.txt`
+-
