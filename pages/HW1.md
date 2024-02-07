@@ -9,4 +9,6 @@
 	- It's ok if you have additional URL list (text) file(s) in your directory
 	- If you use `wget -i` and run into an error showing your list of URLs is separated with `\r`, run the following command line in HPC to translate the `\r` to `\n` at the end of the line to make it compatible with wget
 		- `tr '\r' '\n' < OriginalListOfURLs.txt > newList.txt`
+			- replace `OriginalListOfURLs.txt` with the actual file name of your URL list
+			- use `newList.txt` for `wget -i` again
 -
