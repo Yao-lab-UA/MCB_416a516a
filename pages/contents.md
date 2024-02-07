@@ -5,8 +5,8 @@
 - #[[L5: HPC intro (cont.) & SLURM script]]
 - #[[L6: Seq database access & file transfer]]
 - #[[L7: Raw reads QC (fastQC)]]
-- L8: Reads preprocessing (fastp) & mapping to genome (I)
-- L9: Mapping reads to reference genome (II)
+- #[[L8: Reads preprocessing (fastp)]]
+- L9: Mapping reads to reference genome
 - L10: Counting mapped reads
 - L11: Counts normalization
 - L12: (R) Vector

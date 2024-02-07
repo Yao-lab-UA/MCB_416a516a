@@ -1,0 +1,48 @@
+## Cont. from L6
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide1.PNG) #Github
+	-
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide2.PNG) #HW1
+		- Search HW1 in #Github course page
+			- https://yao-lab-ua.github.io/MCB_416a516a/#/page/hw1
+			-
+	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide3.PNG) #Quiz 1
+	-
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide4.PNG) #UQ
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide5.PNG) #UQ
+-
+- # Section 6: Raw reads preprocessing (filtering/trimming)
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide6.PNG)
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide7.PNG)
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide8.PNG)
+		- Multiple programs are available for raw reads #preprocessing (#filtering and #trimming); we will introduce and use #fastp
+		-
+	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide9.PNG)
+		- When the sequencing read length > cDNA #insert length, the read sequence will include some #adapter sequence
+		-
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide10.PNG) #fastp
+		- `-5` and `-3` only check and trim the sequences at each end, respectively
+		- `-r` goes through the seq from the 5' until hitting a bad window (and then drops all the seq from there to the 3' end)
+		- `-5 –r`: trimming the 5' end first, then applying `-r` to the remaining seq
+		-
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide11.PNG)
+		- What if the full path to the output dir is not specified in the slurm script?
+		-
+	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide12.PNG)
+		- FYI (more about #fastp )
+		-
+	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide13.PNG)
+		- #duplication rate refers to the percentage of sequencing reads that are duplicates of other reads. Duplication can be due to the presence of highly expressed transcripts, or PCR amplification step during library prep, or other factors. High duplication rate (> 30% in RNA-seq) may indicate low library complexity.
+			- reads originating from different parts of the same transcript are not considered duplicates
+			-
+	- ![🖼 Slide14.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide14.PNG)
+		- compare the information shown in fastp.html vs. slurm-jobID.out, the two #fastp report files
+		-
+	- ![🖼 Slide15.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide15.PNG)
+	- ![🖼 Slide16.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide16.PNG)
+	- ![🖼 Slide17.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide17.PNG)
+	- ![🖼 Slide18.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide18.PNG)
+	- ![🖼 Slide19.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide19.PNG)
+		- A general guideline is that the length of the #insert exceeds the length of two reads combined (to maximize the unique seq obtained), or at least longer than any read (to avoid reading into the #adapter ).
+			- For instance, for 2x100PE (paired-end sequencing with 100 nt reads), the library preparation protocol should generate insert sizes preferably longer than 200 nt, which corresponds to fragments longer than 320 nt, if 60 nt long adapters are used.
+			-
+	- ![🖼 Slide20.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide20.PNG)

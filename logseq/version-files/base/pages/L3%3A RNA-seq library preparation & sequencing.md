@@ -22,7 +22,7 @@
 			- **cDNA Synthesis**: The fragmented RNA is reverse-transcribed to create complementary DNA (#cDNA ) .
 			- **End Repair and A-Tailing**: The double-stranded #cDNA is processed to have blunt ends and an added 'A' nucleotide on the 3' end for ligation.
 			  id:: 65aaf197-2d7d-4c2f-b44c-4735068ae16e
-			- **Adapter Ligation**: Adapters specific to the Illumina sequencing platform are ligated to the ends of the A-tailed cDNA fragments. These #adapters provide:
+			- **zAdapter Ligation**: #adapter specific to the Illumina sequencing platform is ligated to each end of the A-tailed cDNA fragments. These adapters provide:
 			  id:: 65aaf197-f4ce-47c1-98de-3180b3a3f6dc
 				- platform-specific sequences (outmost P5 & P7) for the cDNA to bind to the sequencer flow cell
 				- the sequences (innermost) for #primers to bind and initiate the sequencing reactions

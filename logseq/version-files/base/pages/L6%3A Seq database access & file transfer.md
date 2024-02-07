@@ -28,5 +28,5 @@
 	- # Section 5: Sequencing reads QC
 	- **S13**: Section title
 	- **S14**: Quality problems at the read/sequence level
-	- **S15**: #FastQC.slurm
+	- **S15**: #FastQC slurm
 -
