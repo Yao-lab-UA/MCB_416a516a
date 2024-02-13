@@ -42,7 +42,7 @@
 	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide13.PNG)
 		- #STAR #script
 			- Examples of setting variables for invoking the STAR command with various options such as specifying the number of threads, genome directory, and input/output file paths
-			-
+			- Line 29-36: one command line split into multiple text lines with `\`
 	- ![🖼 Slide14.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide14.PNG)
 	- ![🖼 Slide15.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide15.PNG)
 	- ![🖼 Slide16.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide16.PNG)
