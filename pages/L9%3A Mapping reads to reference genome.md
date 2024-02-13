@@ -1,10 +1,10 @@
 ## Cont. from L8
-	- ![🖼 Slide1.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide1.PNG) #Quiz 1
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide1.PNG) #Quiz 1
 	-
-	- ![🖼 Slide2.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide2.PNG) #HW1
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide2.PNG) #HW1
 	-
-	- ![🖼 Slide3.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide3.PNG)
-	- ![🖼 Slide4.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide4.PNG)
+	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide3.PNG)
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide4.PNG)
 		- #alignment refers to the arrangement of two (or more) strings (sequences) so that each letter in one string matches a letter or a gap in the other.
 			- The edit distance is a measure of the number of changes needed to convert one string into the other, indicating how similar they are.
 				- (Edit distance can be calculated through various methods, such as by counting the minimum number of insertions, deletions, and substitutions required to change one sequence into the other)
@@ -13,10 +13,10 @@
 				  Algorithms like Needleman-Wunsch and Smith-Waterman are dynamic programming algorithms that ensure optimal alignment but are computationally intensive. BLAST, on the other hand, is a heuristic method that finds local alignments efficiently.)
 			- (Alignment is critical in bioinformatics for various applications including identifying homologous genes, studying genome rearrangements, etc., in addition to mapping reads in sequencing projects)
 	-
-	- ![🖼 Slide5.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide5.PNG)
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide5.PNG)
 		- The goal, challenges, and requirements to align RNA-seq short reads to a #[[reference genome]]
 		-
-	- ![🖼 Slide6.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide6.PNG)
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide6.PNG)
 		- #[[reference genome]] sequence
 			- The continuous refinement of reference sequences is due to ongoing discoveries and updates in gene structures, variants, and annotations.
 			- (RefSeq (Reference Sequence Database) is a project by the National Center for Biotechnology Information (NCBI, USA) that provides a comprehensive, integrated, and well-annotated set of sequences, including genomic DNA, transcripts, and proteins. RefSeq sequences are curated to ensure they represent a non-redundant set.)
