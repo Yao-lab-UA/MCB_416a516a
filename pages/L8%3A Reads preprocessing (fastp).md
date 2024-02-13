@@ -1,4 +1,4 @@
-## Cont. from L6
+## Cont. from L7
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide1.PNG) #Github
 	-
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide2.PNG) #HW1
@@ -19,12 +19,12 @@
 	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide9.PNG)
 		- When the sequencing read length > cDNA #insert length, the read sequence will include some #adapter sequence
 		-
-	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide10.PNG) #fastp
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide10.PNG) #fastp #script
 		- `-5` and `-3` only check and trim the sequences at each end, respectively
 		- `-r` goes through the seq from the 5' until hitting a bad window (and then drops all the seq from there to the 3' end)
 		- `-5 –r`: trimming the 5' end first, then applying `-r` to the remaining seq
 		-
-	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide11.PNG)
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide11.PNG){:height 430, :width 750}
 		- What if the full path to the output dir is not specified in the slurm script?
 		-
 	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide12.PNG)

@@ -11,4 +11,4 @@
 		- `tr '\r' '\n' < OriginalListOfURLs.txt > newList.txt`
 			- replace `OriginalListOfURLs.txt` with the actual file name of your URL list
 			- use `newList.txt` for `wget -i` again
--
+	- If you see filenames in red, it means compressed (in this case, *gz) files. No worries.

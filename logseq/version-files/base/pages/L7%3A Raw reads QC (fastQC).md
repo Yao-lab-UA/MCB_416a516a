@@ -1,4 +1,5 @@
 ## Cont. from L6
+collapsed:: true
 	- ![Slide1.JPG](../assets/Slide1_1706977994505_0.JPG) #Slido
 	-
 	- ![Slide2.JPG](../assets/Slide2_1706978008690_0.JPG) #HW1 (QnA)
@@ -13,7 +14,7 @@
 			- #FastQC: A widely-used tool for assessing the quality of raw sequencing data, providing a modular set of analyses to report on data quality and potential issues. More info at: [http://www.bioinformatics.babraham.ac.uk/projects/fastqc/](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 	-
 	- ![Slide6.JPG](../assets/Slide6_1706977834483_0.JPG) #FastQC
-		- An example SLURM script to run FastQC on HPC
+		- An example #script to run FastQC on HPC
 		- Line 3-12: #SBATCH directives for HPC resource allocation
 		- Line 14-33: the fastQC job description
 			- Defining and using a #variable in #UNIX #shell scripting:
