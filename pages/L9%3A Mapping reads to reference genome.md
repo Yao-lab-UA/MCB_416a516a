@@ -22,44 +22,44 @@
 			- (RefSeq (Reference Sequence Database) is a project by the National Center for Biotechnology Information (NCBI, USA) that provides a comprehensive, integrated, and well-annotated set of sequences, including genomic DNA, transcripts, and proteins. RefSeq sequences are curated to ensure they represent a non-redundant set.)
 			- (Ensembl is a genome browser that provides both automated and, for selected species, manual curation of gene annotations. It is a project based at the European Molecular Biology Laboratory (EMBL)'s European Bioinformatics Institute (EMBL-EBI), located on the Wellcome Genome Campus in Hinxton, UK)
 			-
-	- ![🖼 Slide7.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide7.PNG) #Slido
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide7.PNG)  #Slido
 	-
-	- ![🖼 Slide8.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide8.PNG)
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide8.PNG)
 		- #annotation is a dynamic process essential for understanding the biological implications of sequencing data, including the identification of gene regions, regulatory elements, and non-coding RNA, etc.
 			- Various annotation formats exist, including GFF2, GFF3, GTF, BED, SAF, etc.
 		-
-	- ![🖼 Slide9.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide9.PNG)
+	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide9.PNG)
 		- showing the complexity of RNA variations that are not captured in reference genome sequences or annotations.
 			- #TSS: transcription start sites
 		-
-	- ![🖼 Slide10.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide10.PNG)
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide10.PNG)
 		- RNA-seq data is particularly challenging due to splicing. Reads spanning exon-exon junctions will not align contiguously to the genome, necessitating the use of #splice-aware alignment algorithms
 		-
-	- ![🖼 Slide11.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide11.PNG)
-	- ![🖼 Slide12.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide12.PNG)
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide11.PNG)
+	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide12.PNG)
 		- Two main functional modules of #STAR: generating a genome index and aligning reads to the reference genome.
 		-
-	- ![🖼 Slide13.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide13.PNG)
+	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide13.PNG)
 		- #STAR #script
 			- Examples of setting variables for invoking the STAR command with various options such as specifying the number of threads, genome directory, and input/output file paths
 			-
-	- ![🖼 Slide14.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide14.PNG)
-	- ![🖼 Slide15.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide15.PNG)
-	- ![🖼 Slide16.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide16.PNG)
+	- ![🖼 Slide14.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide14.PNG)
+	- ![🖼 Slide15.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide15.PNG)
+	- ![🖼 Slide16.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide16.PNG)
 		- #STAR output
 			- The "Log.final.out" is a summary log file that includes important statistics about the alignment process, such as the number of input reads and the percentage of reads that were successfully/uniquely aligned, etc.
 				- reads mapped to multiple loci may indicate reads coming from repetitive regions.
 				- reads that didn't map because they were too short or had too many mismatches my suggest issues with read quality or an inappropriate choice of alignment parameters.
 			-
-	- ![🖼 Slide17.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide17.PNG)
-	- ![🖼 Slide18.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide18.PNG)
+	- ![🖼 Slide17.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide17.PNG)
+	- ![🖼 Slide18.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide18.PNG)
 		- #STAR output
 			- "Aligned.sortedByCoord.out.bam" is the main output file containing the aligned reads in BAM format, which is sorted by the coordinate in the genome, making it suitable for many downstream analyses.
 			- slide 18 explains the structure of #SAM (Sequence Alignment/Map) and #BAM (Binary Alignment/Map) files, which are standard formats for storing large nucleotide sequence alignments.
 				- The SAM format is human-readable, tab-delimited text
 				- The BAM format is a binary version of SAM that is more compact and faster for computers to process.
 				-
-	- ![🖼 Slide19.PNG](file://C:\Users\guang\Dropbox\Other\Logseq\assets\416a516a\L9\Slide19.PNG)
+	- ![🖼 Slide19.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide19.PNG)
 		- #CIGAR (Concise Idiosyncratic Gapped Alignment Report) string is a compact representation of an #alignment
 			- It summarizes how matches, mismatches, insertions, deletions, and other events are encoded in the CIGAR string, which is crucial for interpreting detailed alignment information, such as where reads align to the reference and how they differ from it
 -
