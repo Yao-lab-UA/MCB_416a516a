@@ -17,11 +17,11 @@
 	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide7.PNG)
 	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide8.PNG) #STAR with for loop
 		- Line 23: #Bash #[[command sequence]] to dynamically create a list of unique SRR accession numbers from fastq file names (to handle paired-end read files properly in the subsequent for loop).
-		- Line 44-55: #[[for loop]] to batch process multiple files by iterating over a list of identifiers/files.
+		- Line 44-55: #[[for loop]] to batch process multiple STAR alignment jobs by iterating over a list of identifiers/files.
 		-
 	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide9.PNG)
 		- STAR output (batch processing with for loop)
 		-
 	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide10.PNG)
-		- #FASTQC with #[[for loop]]
+		- use for loop to batch process multiple FASTQC jobs
 -
