@@ -3,6 +3,7 @@
 	-
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide2.PNG) #HW1
 	-
+- # Section 7: Reads mapping to reference genome
 	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide3.PNG)
 	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide4.PNG)
 		- #alignment refers to the arrangement of two (or more) strings (sequences) so that each letter in one string matches a letter or a gap in the other.

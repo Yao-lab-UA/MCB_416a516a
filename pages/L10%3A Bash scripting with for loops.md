@@ -1,11 +1,27 @@
+## Cont. from L9
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001922_Slide1.PNG) #HW1
+	-
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001922_Slide2.PNG) #Quiz 1
+	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001922_Slide3.PNG) #Quiz 1
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001922_Slide4.PNG) #Quiz 1
+	-
+- # Section 7: Reads mapping to reference genome (cont.)- with bash scripting & for loop
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide5.PNG)
+		- #CIGAR string is provided for each sequencing read and describes alignment between  the read sequence and the reference genome.
+			- 'padding' (P) is a placeholder placed in the reference sequence for alignments
+			- Hard clipping indicates bases at the beginning or end of a read that are not aligned to the reference and also not stored in the SAM/BAM file's SEQ field (making the stored sequence in the file shorter than the original read)
+			- Soft clipping, like hard clipping, indicates bases at the beginning or end of a read that are not aligned. However, soft-clipped bases are still included in the SEQ field of the SAM/BAM file (and thus available for downstream analysis if needed)
+			- (The decision to soft or hard clipping is typically made by the alignment software based on the quality of the match between the read and the reference sequence and other factors/parameters)
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide6.PNG) #Slido
+	-
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide7.PNG)
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide8.PNG) #STAR with for loop
+		- Line 23: #Bash #[[command sequence]] to dynamically create a list of unique SRR accession numbers from fastq file names (to handle paired-end read files properly in the subsequent for loop).
+		- Line 44-55: #[[for loop]] to batch process multiple files by iterating over a list of identifiers/files.
+		-
+	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide9.PNG)
+		- STAR output (batch processing with for loop)
+		-
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001923_Slide10.PNG)
+		- #FASTQC with #[[for loop]]
 -
-	- ![🖼 Slide1.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide1.PNG)
-	- ![🖼 Slide2.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide2.PNG)
-	- ![🖼 Slide3.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide3.PNG)
-	- ![🖼 Slide4.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide4.PNG)
-	- ![🖼 Slide5.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide5.PNG)
-	- ![🖼 Slide6.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide6.PNG)
-	- ![🖼 Slide7.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide7.PNG)
-	- ![🖼 Slide8.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide8.PNG)
-	- ![🖼 Slide9.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide9.PNG)
-	- ![🖼 Slide10.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide10.PNG)
