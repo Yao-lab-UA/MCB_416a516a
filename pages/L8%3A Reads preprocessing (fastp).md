@@ -7,8 +7,8 @@
 			-
 	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide3.PNG) #Quiz 1
 	-
-	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide4.PNG) #UQ
-	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide5.PNG) #UQ
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide4.PNG) #UQ 5
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide5.PNG) #UQ 6
 -
 - # Section 6: Raw reads preprocessing (filtering/trimming)
 	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide6.PNG)
