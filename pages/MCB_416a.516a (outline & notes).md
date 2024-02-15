@@ -7,9 +7,9 @@
 - #[[L6: Seq database access & file transfer]]
 - #[[L7: Raw reads QC (fastQC)]]
 - #[[L8: Reads preprocessing (fastp)]]
-- #[[L9: Mapping reads to reference genome]]
-- L10: Counting mapped reads
-- L11: Counts normalization
+- #[[L9: Mapping reads to reference genome (STAR)]]
+- #[[L10: Bash scripting with for loops]]
+- L11: Counts quantification & normalization
 - L12: (R) Vector
 - L13: (R) Data frame (I)
 - L14: (R) Data frame (II) & Graph; {For loop}

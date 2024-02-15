@@ -1,0 +1,11 @@
+-
+	- ![🖼 Slide1.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide1.PNG)
+	- ![🖼 Slide2.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide2.PNG)
+	- ![🖼 Slide3.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide3.PNG)
+	- ![🖼 Slide4.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide4.PNG)
+	- ![🖼 Slide5.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide5.PNG)
+	- ![🖼 Slide6.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide6.PNG)
+	- ![🖼 Slide7.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide7.PNG)
+	- ![🖼 Slide8.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide8.PNG)
+	- ![🖼 Slide9.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide9.PNG)
+	- ![🖼 Slide10.PNG](file://C:\Users\guang\OneDrive\Documents\GitHub\MCB_416a516a\assets\storages\logseq-plugin-multiple-assets\416a516a\L10\Slide10.PNG)
