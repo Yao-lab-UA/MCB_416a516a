@@ -45,7 +45,7 @@
 		- #featureCounts #SLURM
 			- featureCounts is a highly efficient program for counting reads mapping to genomic features such as genes or exons.
 			- Lines 20 and 32 show how to use featureCounts to handle multiple input BAM/SAM files
-				- note that STAR & fastp programs don’t have this native function to handle multiple input files
+				- note that STAR & fastp programs don’t have this native function to handle multiple input files (and thus need a #[[for loop]] )
 				-
 	- ![🖼 Slide15.PNG](../assets/storages/logseq-plugin-multiple-assets/20240217_203624_Slide15.PNG)
 	- ![🖼 Slide16.PNG](../assets/storages/logseq-plugin-multiple-assets/20240217_203624_Slide16.PNG)
