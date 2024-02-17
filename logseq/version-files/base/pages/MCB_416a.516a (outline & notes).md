@@ -9,8 +9,8 @@
 - #[[L8: Reads preprocessing (fastp)]]
 - #[[L9: Mapping reads to reference genome (STAR)]]
 - #[[L10: Bash scripting with for loops]]
-- L11: Counts quantification & normalization
-- L12: (R) Vector
+- #[[L11: Counts quantification (featureCounts)]]
+- L12: Counts quantification & (R) Vector
 - L13: (R) Data frame (I)
 - L14: (R) Data frame (II) & Graph; {For loop}
 - L15: DESeq2-generate DESeqDataSet
