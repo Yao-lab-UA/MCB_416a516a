@@ -1,16 +1,16 @@
-- #[[L1: Course introduction]]
-- #[[L2: Next-gen sequencing (NGS) and RNA-seq technology]]
-- #[[L3: RNA-seq library preparation & sequencing]]
-- #[[L4: HPC intro]]
-- #[[L5: HPC intro (cont.) & SLURM script]]
-- #[[L6: Seq database access & file transfer]]
-- #[[L7: Raw reads QC (fastQC)]]
-- #[[L8: Reads preprocessing (fastp)]]
-- #[[L9: Mapping reads to reference genome (STAR)]]
-- #[[L10: Bash scripting with for loops]]
-- #[[L11: Counts quantification (featureCounts)]]
-- L12: Counts normalization & (R) Vector
-- L13: (R) Data frame (I)
+- [[L1: Course introduction]]
+- [[L2: Next-gen sequencing (NGS) and RNA-seq technology]]
+- [[L3: RNA-seq library preparation & sequencing]]
+- [[L4: HPC intro]]
+- [[L5: HPC intro (cont.) & SLURM script]]
+- [[L6: Seq database access & file transfer]]
+- [[L7: Raw reads QC (fastQC)]]
+- [[L8: Reads preprocessing (fastp)]]
+- [[L9: Mapping reads to reference genome (STAR)]]
+- [[L10: Bash scripting with for loops]]
+- [[L11: Counts quantification (featureCounts)]]
+- [[L12: Counts normalization]]
+- L13: (R) Vector & Data frame (I)
 - L14: (R) Data frame (II) & Graph
 - L15: DESeq2-generate DESeqDataSet
 - L16: DESeq2-rlog & Experiment-level QC
@@ -28,3 +28,5 @@
 - L27: Single-cell RNA-seq analysis (II)
 -
 - [[Supplementary Learning Materials]]
+- [[HPC pipeline (Demo)]]
+- [[HW1]], [[HW2]]

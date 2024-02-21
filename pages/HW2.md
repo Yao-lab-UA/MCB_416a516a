@@ -1,0 +1,14 @@
+- Start from the RNA-seq raw read files associated with Days 0 (control), 2, 4, 8, and 16 in the GEO dataset GSE124109, as you did in HW1, and analyze the data through the following pipeline:
+	- Access and use the raw read files at `/xdisk/guangyao/416a516a/Gx/HW1/`
+	- Check the reads quality of each fastq file using fastQC
+	- Preprocess the reads using fastp
+	- Map the reads to reference rat genome using STAR
+	- Count the mapped reads using featureCounts
+	- Report the results after each step in the provided template table
+-
+- Note:
+	- It's strongly recommended that you run through the #[[HPC pipeline (Demo)]] first, before starting HW2
+	- In HW2, make the following modifications to the example code (downloaded from D2L)
+		- Verify that the input and output paths/directories are valid and appropriate (e.g., fastp output directory will serve as the STAR input directory, and so on).
+		- Add the code (for loop) to enable batch job processing of multiple read files
+		- Increase the `#SBATCH --time` (multiply the time requested in the example code by the number of jobs, then divide by 2, which should be more than enough)
