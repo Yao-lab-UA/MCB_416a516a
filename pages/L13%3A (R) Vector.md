@@ -1,0 +1,71 @@
+## Cont. from L12
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183940_Slide1.PNG)
+		- If you cannot access #HPC via #OnDemand, try the following (in order):
+			- Clear the cache in your brower
+			- Try a different brower(s)
+			- Access HPC via client programs (e.g., PuTTY in Windows, Terminal in Mac), instead of OnDemand
+			- Contact HPC support: hpc-consult@list.arizona.edu
+		-
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183940_Slide2.PNG) #HW2
+	-
+	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183940_Slide3.PNG)
+		- Note the updated #UQ & #Quiz rules
+		-
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183941_Slide4.PNG)
+		- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183941_Slide5.PNG)
+			- course #resources
+			-
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183941_Slide6.PNG) #UQ
+	-
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183941_Slide7.PNG) #UQ
+	-
+- # Section 10: R basics
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183941_Slide8.PNG)
+	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183942_Slide9.PNG)
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183942_Slide10.PNG)
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183942_Slide11.PNG)
+		- #R & #RStudio installation
+		-
+	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183942_Slide12.PNG)
+		- #RStudio is an Integrated Development Environment (IDE), providing a user-friendly interface for working with #R programming. It consists of four panels:
+			- **Source** (Top-Left Panel): the script editor, where you can write and edit extensive R code, save, and execute it in chunks or as a whole.
+			- **Console** (Bottom-Left Panel): where the R code generates output (results, messages, warnings/errors). You can also type commands directly into the console and see the output below your command.
+			- **Environment**/**History** (Top-Right Panel):
+				- The Environment tab displays a list of variables, data frames, vectors, functions, and other objects currently in memory.
+				- The History tab keeps a record of all the commands that have been entered in the console, from which you can search and re-run commands.
+			- **Files/Plots/Packages/Help/Viewer** (Bottom-Right Panel):
+				- The *Files* tab allows you to navigate your project's directories and open scripts or data files directly in RStudio.
+				- The *Plots* tab shows the graphical output from R commands. You can zoom in on these plots, export them to various formats, and navigate through a history of plots you've created.
+				- The *Packages* tab lists all installed packages and lets you install new packages or load/unload them from the current session.
+				- The *Help* tab provides access to R documentation and help files for different functions and packages.
+				- The *Viewer* tab is used to display local web content, such as HTML files, which can be particularly useful for viewing R Markdown documents or Shiny apps directly within RStudio.
+	-
+	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183942_Slide13.PNG)
+		- A #variable is used to store data in R. There are conventions and syntax rules to follow, as explained in the slide, to create variables.
+		-
+	- ![🖼 Slide14.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide14.PNG) #Slido
+	-
+	- ![🖼 Slide15.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide15.PNG)
+		- A #function is a piece of R code designed to carry out a specific task and can be reused throughout the code.
+			- The syntax for using a function: the function name followed by parentheses containing any #arguments or #parameters the function requires.
+				- *Parameters* refer to the variables as they are named in the function's definition.
+				- *Arguments* refer to the actual values or expressions you pass to (and processed by) the function when you call it.
+			- Examples: the sqrt() function, which calculates the square root, and log2(), which calculates the binary logarithm.
+			- Also note the syntax for nesting functions: e.g.,  log2(sqrt(245)).
+		-
+	- ![🖼 Slide16.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide16.PNG)
+		- ![🖼 Slide17.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide17.PNG)
+			- to access the #help documentation in R: use `help(function_name)` or `?function_name`
+			   retrieves the function description, parameters, and examples.
+			- use the `help.search()` function or the `??` shortcut in R to find functions related to a certain topic when you do not know the exact function name
+			-
+	- ![🖼 Slide18.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide18.PNG)
+		- A #vector in R is a one-dimensional array that can hold numeric, character, or logical data. All elements in a vector must be of the same type.
+		-
+	- ![🖼 Slide19.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183944_Slide19.PNG) #Slido
+		- ![🖼 Slide20.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183944_Slide20.PNG)
+		- If you do not enclose #string elements in #quotes, R will look for an object/variable with that name. Since there is no object named castaneus, R returns an error saying "object 'castaneus' not found."
+		-
+	- ![🖼 Slide21.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide21.PNG) #Slido
+		- In this example, the object/variable *castaneus* is defined first, and thus no error is returned when passing it into the vector *mouse.strains*
+-

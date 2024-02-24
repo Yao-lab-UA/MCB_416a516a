@@ -11,7 +11,7 @@
 - [[L10: Bash scripting with for loops]]
 - [[L11: Counts quantification (featureCounts)]]
 - [[L12: Counts normalization]]
-- L13: (R) Vector & Data frame (I)
+- [[L13: (R) Vector]]
 - L14: (R) Data frame (II) & Graph
 - L15: DESeq2-generate DESeqDataSet
 - L16: DESeq2-rlog & Experiment-level QC

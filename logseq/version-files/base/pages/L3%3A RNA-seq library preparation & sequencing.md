@@ -1,5 +1,5 @@
 ## Cont. from L2
-	- **S1-S3**: #Github outline/notes; #Slido QnA; #UQ 2
+	- **S1-S3**: #Github outline/notes #resources ; #Slido QnA; #UQ 2
 - ## Sec 2.3  RNA-seq workflow (cont.)
 	- **S4**: RNA electrophoresis result interpretation
 		- See note on S22 (for intact, partially degraded, and heavily degraded RNA)
