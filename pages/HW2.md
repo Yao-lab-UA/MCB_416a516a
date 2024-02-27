@@ -35,4 +35,4 @@
 			- module load contrib
 			- module load bjoyce3/sarawillis/multiqc/1.20
 			- multiqc ./
-	- The HW2 has 30 pts total, including 27 pts as described above and 3 pts related to your HPC pipeline completeness. The Report Template can be access here: [HW2_Report.template.2024.docx](../assets/HW2_Report.template.2024_1708993559126_0.docx)
+	- The HW2 has 30 pts total, including 27 pts as described above and 3 pts related to your HPC pipeline completeness. The Report Template can be accessed here: [HW2_Report.template.2024.docx](../assets/HW2_Report.template.2024_1708993559126_0.docx)
