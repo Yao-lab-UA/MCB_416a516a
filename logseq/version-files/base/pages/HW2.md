@@ -1,14 +1,38 @@
 - Start from the RNA-seq raw read files associated with Days 0 (control), 2, 4, 8, and 16 in the GEO dataset GSE124109, as you did in HW1, and analyze the data through the following pipeline:
-	- Access and use the raw read files at `/xdisk/guangyao/416a516a/Gx/HW1/`
-	- Check the reads quality of each fastq file using fastQC
+	- Access and use the raw read files at *InputDir_1* `/xdisk/guangyao/416a516a/Gx/HW1/`
+	- Check the read quality using fastQC
+		- 1. Create a directory for the analysis: `/xdisk/guangyao/416a516a/HW2/yourNetID/fastQC`
+		- 2. Run fastQC to analyze the read quality in each of the 30 fastq files in the *InputDir_1*
+		- 3. Summarize the fastQC output using MultiQC (see Note below)
+		- 4. Submit your MultiQC slurm script (5 pts), and enter the results in the Report Template (4 pts)
 	- Preprocess the reads using fastp
-	- Map the reads to reference rat genome using STAR
+		- 1. Create a directory for the analysis: `/xdisk/guangyao/416a516a/HW2/yourNetID/fastp`
+		- 2. Run fastp to preprocess each of the 30 fastq files (corresponding to 15 libraries) in the *InputDir_1*
+		- 4. Submit your fastp output *.out file (3 pts), and enter the results in the Report Template (6 pts)
+	-
+	- Access and use the raw read files at *InputDir_2* `/xdisk/guangyao/416a516a/Gx/HW1/fastp`
+	- Map the reads to the reference rat genome using STAR
+		- 1. Create a directory for the analysis: `/xdisk/guangyao/416a516a/HW2/yourNetID/STAR`
+		- 2. Run STAR to map the preprocessed read files in *InputDir_2* to the reference genome
+		- 3. Summarize the STAR output using MultiQC (similar to what you do in the fastQC step, but targeting the STAR output directory here, not the FastQC output directory)
+		- 4. Enter the results in the Report Template (4 pts)
 	- Count the mapped reads using featureCounts
-	- Report the results after each step in the provided template table
+		- 1. Create a directory for the analysis: `/xdisk/guangyao/416a516a/HW2/yourNetID/featureCounts`
+		- 2. Run featureCounts to count the aligned reads in each STAR output file (*.bam)
+		- 3. Summarize the featureCounts output using MultiQC (similar to what you do in the STAR step above, targeting the featureCounts output directory)
+		- 4. Enter the results in the Report Template (5 pts)
 -
 - Note:
 	- It's strongly recommended that you run through the #[[HPC pipeline (Demo)]] first, before starting HW2
 	- In HW2, make the following modifications to the example code (downloaded from D2L)
-		- Verify that the input and output paths/directories are valid and appropriate (e.g., fastp output directory will serve as the STAR input directory, and so on).
+		- Verify that the input and output paths/directories are valid and appropriate (e.g., the fastp output directory serves as the STAR input directory, and so on).
 		- Add the code (for loop) to enable batch job processing of multiple read files
 		- Increase the `#SBATCH --time` (multiply the time requested in the example code by the number of jobs, then divide by 2, which should be more than enough)
+		- Keep other settings and parameters as they are in the example code.
+	- To run MultiQC, write the slurm job script as following
+		- Write the SLURM #SBATCH directives the same as in the example code of Hello_World.slurm, except for `#SBATCH --time=00:10:00`
+		- Write the bash command lines to run MultiQC as below, assuming the MultiQC script is in the same directory as the program (FastQC, STAR, or featureCounts) output directory that you want to summarize:
+			- module load contrib
+			- module load bjoyce3/sarawillis/multiqc/1.20
+			- multiqc ./
+	- The HW2 has 30 pts total, including 27 pts as described above and 3 pts related to your HPC pipeline completeness. The Report Template can be access here: [HW2_Report.template.2024.docx](../assets/HW2_Report.template.2024_1708993559126_0.docx)
