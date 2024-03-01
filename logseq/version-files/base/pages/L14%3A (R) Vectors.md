@@ -1,0 +1,34 @@
+## Cont. from L13
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide1.PNG) #HW2
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide2.PNG) #HW2 #MultiQC
+		- [MultiQC](https://multiqc.info/) is a tool that aggregates results from a wide range of bioinformatics analyses across multiple samples
+		- It searches directories for output files and logs from other bioinformatics tools (e.g., fastQC, STAR, and featureCounts) and compiles an HTML report (e.g., [https://multiqc.info/examples/rna-seq/multiqc_report.html#featurecounts](https://multiqc.info/examples/rna-seq/multiqc_report.html))
+		- Note the example file structure to the right, where MultiQC is used to summarize a fastQC output file directory and generate a report (multiqc_report.html).
+		-
+	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide3.PNG)
+		- Note the updated #UQ & #Quiz rules
+	-
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide4.PNG) #UQ
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide5.PNG) #UQ
+	-
+- # Section 10: R basics (cont.)
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide6.PNG)
+		- How to handle strings themselves containing quotation marks: if a #string includes the same type of quotation mark within the string (e.g., "castaneus"pup""), an #[[escape character]], the backslash `\`, is used  (e.g., "castaneus\\"pup\\"") to avoid the confusion
+		-
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide7.PNG)
+		- If you create a vector with a combination of numbers and what appear to be non-numeric values, R will assume the non-numeric values are variable names unless they're quoted as #string (if the variables are not defined, R will throw an error)
+			- When numbers are mixed with strings in a vector, numbers are treated as strings in R (so that all elements are of the same type)
+		-
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide8.PNG)
+		- The #seq() function in R can be used to create numerical sequences with specified increments.
+		-
+	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide9.PNG) #Slido
+	-
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide10.PNG)
+		- In R, access specific elements of a vector by specifying their index positions within square brackets `[]`.
+		- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015902_Slide11.PNG) #Slido
+			- vectors can be subsetted not only by single indices (e.g., `mouse.strains[2]`) but also by a vector of indices -e.g., `mouse.strains[c(2, 4)]` -- and in the previous slide, `mouse.strains[2:4]` #subset
+				- Note that `mouse.strains[2, 4]` is to subset a data frame, not a vector, as we will see in the next lecture
+			-
+	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015902_Slide12.PNG)
+		- In R, vectors can have names for their elements, which allows for more readable and intuitive subsetting and data manipulation. You can assign names to a vector using the #names() function and then access or #subset elements by referring to these names within square brackets.

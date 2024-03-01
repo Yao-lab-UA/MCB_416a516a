@@ -11,22 +11,24 @@
 - [[L10: Bash scripting with for loops]]
 - [[L11: Counts quantification (featureCounts)]]
 - [[L12: Counts normalization]]
-- [[L13: (R) Vector]]
-- L14: (R) Data frame (II) & Graph
-- L15: DESeq2-generate DESeqDataSet
-- L16: DESeq2-rlog & Experiment-level QC
-- L17: Differential expression (DE) analysis
-- L18: DE analysis (with DESeq2) - I
-- L19: DE analysis (with DESeq2) - II
-- L20: DE analysis (with DESeq2) - III
-- L21: Identify enriched pathways in gene lists (g:Profiler)
-- L22: hypergeometric distribution
-- L23: Identify enriched pathways in ranked gene lists
+- [[L13: (R) Variables, Functions, Vectors]]
+- [[L14: (R) Vectors]]
+- [[L15: (R) Data frame]]
+-
+- L16: (R) Data frame (II) & Graphs
+- DESeq2-generate DESeqDataSet
+- DESeq2-rlog & Experiment-level QC
+- Differential expression (DE) analysis
+- DE analysis (with DESeq2) - I
+- DE analysis (with DESeq2) - II
+- Identify enriched pathways in gene lists (g:Profiler)
+- Hypergeometric distribution
+- Identify enriched pathways in ranked gene lists
   (GSEA)
-- L24: GSEA demo
-- L25: Network analysis
-- L26: Single-cell RNA-seq analysis (I)
-- L27: Single-cell RNA-seq analysis (II)
+- GSEA demo
+- Network analysis
+- Single-cell RNA-seq analysis (I)
+- Single-cell RNA-seq analysis (II)
 -
 - [[Supplementary Learning Materials]]
 - [[HPC pipeline (Demo)]]
