@@ -12,7 +12,7 @@
 - [[L12: Counts normalization]]
 - [[L13: (R) Variables, Functions, Vectors]]
 - [[L14: (R) Vectors]]
-- [[L15: (R) Data frame]]
+- L15: (R) Data frame
 -
 - L16: (R) Data frame (II) & Graphs
 - DESeq2-generate DESeqDataSet
