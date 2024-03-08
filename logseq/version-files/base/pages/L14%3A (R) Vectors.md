@@ -20,15 +20,15 @@
 			- When numbers are mixed with strings in a vector, numbers are treated as strings in R (so that all elements are of the same type)
 		-
 	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide8.PNG)
-		- The #seq() function in R can be used to create numerical sequences with specified increments.
+		- The #seq() function in R can be used to create a #vector containing a numerical sequence with specified increments.
 		-
 	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide9.PNG) #Slido
 	-
 	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide10.PNG)
-		- In R, access specific elements of a vector by specifying their index positions within square brackets `[]`.
+		- In R, access specific elements of a #vector by specifying their #index positions within square brackets `[]`.
 		- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015902_Slide11.PNG) #Slido
-			- vectors can be subsetted not only by single indices (e.g., `mouse.strains[2]`) but also by a vector of indices -e.g., `mouse.strains[c(2, 4)]` -- and in the previous slide, `mouse.strains[2:4]` #subset
+			- a #vector can be subsetted not only by single indices (e.g., `mouse.strains[2]`) but also by a vector of indices -e.g., `mouse.strains[c(2, 4)]` -- and in the previous slide, `mouse.strains[2:4]` #subset
 				- Note that `mouse.strains[2, 4]` is to subset a data frame, not a vector, as we will see in the next lecture
 			-
 	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015902_Slide12.PNG)
-		- In R, vectors can have names for their elements, which allows for more readable and intuitive subsetting and data manipulation. You can assign names to a vector using the #names() function and then access or #subset elements by referring to these names within square brackets.
+		- In R, a #vector can have names for their elements, which allows for more readable and intuitive subsetting and data manipulation. You can assign names to a vector using the #names() function and then access or #subset elements by referring to these names within square brackets.

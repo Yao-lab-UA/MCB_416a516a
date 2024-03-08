@@ -40,11 +40,13 @@
 				- The *Help* tab provides access to R documentation and help files for different functions and packages.
 				- The *Viewer* tab is used to display local web content, such as HTML files, which can be particularly useful for viewing R Markdown documents or Shiny apps directly within RStudio.
 	-
+	- ## 10.1: Variables
 	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183942_Slide13.PNG)
 		- A #variable is used to store data in R. There are conventions and syntax rules to follow, as explained in the slide, to create variables.
 		-
 	- ![🖼 Slide14.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide14.PNG) #Slido
 	-
+	- ## 10.2: Functions
 	- ![🖼 Slide15.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide15.PNG)
 		- A #function is a piece of R code designed to carry out a specific task and can be reused throughout the code.
 			- The syntax for using a function: the function name followed by parentheses containing any #arguments or #parameters the function requires.
@@ -52,13 +54,15 @@
 				- *Arguments* refer to the actual values or expressions you pass to (and processed by) the function when you call it.
 			- Examples: the sqrt() function, which calculates the square root, and log2(), which calculates the binary logarithm.
 			- Also note the syntax for nesting functions: e.g.,  log2(sqrt(245)).
-		-
+	-
+	- ## 10.3: Help documents
 	- ![🖼 Slide16.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide16.PNG)
 		- ![🖼 Slide17.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide17.PNG)
 			- to access the #help documentation in R: use `help(function_name)` or `?function_name`
 			   retrieves the function description, parameters, and examples.
 			- use the `help.search()` function or the `??` shortcut in R to find functions related to a certain topic when you do not know the exact function name
-			-
+	-
+	- ## 10.4: Vectors
 	- ![🖼 Slide18.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183943_Slide18.PNG)
 		- A #vector in R is a one-dimensional array that can hold numeric, character, or logical data. All elements in a vector must be of the same type.
 		-
