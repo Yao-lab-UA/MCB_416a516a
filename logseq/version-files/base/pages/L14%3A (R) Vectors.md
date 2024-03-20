@@ -1,4 +1,4 @@
-## Cont. from L13
+-
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide1.PNG) #HW2
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240301_015901_Slide2.PNG) #HW2 #MultiQC
 		- [MultiQC](https://multiqc.info/) is a tool that aggregates results from a wide range of bioinformatics analyses across multiple samples

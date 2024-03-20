@@ -1,4 +1,4 @@
-## Cont. from L1
+-
 	- **S1-S4**: #Slido QnA; #Github outline/notes #resources ; #UQ 1
 - ## Sec 2.1  NGS platforms (cont.)
 	- **S5**: Evolution of next-gen sequencing (NGS) systems #NGS

@@ -1,4 +1,4 @@
-## Cont. from L9
+-
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001922_Slide1.PNG) #HW1
 	-
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240215_001922_Slide2.PNG) #Quiz 1

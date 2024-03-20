@@ -14,9 +14,9 @@
 - [[L13: (R) Variables, Functions, Vectors]]
 - [[L14: (R) Vectors]]
 - [[L15: (R) Data frame]]
+- [[L16: (R) Data frame (II)]]
 -
-- L16: (R) Data frame (II) & Graphs
-- DESeq2-generate DESeqDataSet
+- L17: (R) Graphs & DESeq2-generate DESeqDataSet
 - DESeq2-rlog & Experiment-level QC
 - Differential expression (DE) analysis
 - DE analysis (with DESeq2) - I

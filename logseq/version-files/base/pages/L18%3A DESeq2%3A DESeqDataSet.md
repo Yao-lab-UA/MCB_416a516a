@@ -1,0 +1,20 @@
+-
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024347_Slide1.PNG)
+		- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024347_Slide2.PNG)
+		- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024347_Slide3.PNG)
+		- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024347_Slide4.PNG)
+		- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024347_Slide5.PNG)
+		- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide6.PNG)
+		- #Quiz 2 explanations
+		-
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide7.PNG) #UQ
+	-
+- ## 11.2 DESeq2's DESeqDataSet object (cont.)
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide8.PNG)
+	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide9.PNG)
+		- {{embed ((65fa4a41-c4af-4a33-9c1e-937534792639))}}
+		-
+		- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide10.PNG)
+		- Note: see our example #code, DESeq2.v2, for line-by-line annotations
+		-
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024349_Slide11.PNG)

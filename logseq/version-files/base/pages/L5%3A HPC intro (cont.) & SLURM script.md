@@ -1,4 +1,4 @@
-## Cont. from L4
+-
 	- **S1-S2**: Course #recording; #UQ 3
 - # Section 3: HPC Intro (cont.)
   id:: 843588af-52c9-43aa-936e-1a5461113962

@@ -1,4 +1,4 @@
-## Cont. from L14
+-
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240308_200928_Slide1.PNG) #Quiz 2, #HW2, #[[516a project]]
 	-
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240308_200928_Slide2.PNG)

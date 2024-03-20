@@ -1,4 +1,4 @@
-## Cont. from L7
+-
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide1.PNG) #Github
 	-
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/Slide2.PNG) #HW1

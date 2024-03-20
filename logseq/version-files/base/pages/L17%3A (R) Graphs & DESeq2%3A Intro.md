@@ -1,0 +1,47 @@
+-
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000055_Slide1.PNG) #Quiz 2
+	-
+- ## 10.6: Graphs in R (cont.)
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000055_Slide2.PNG)
+		- #boxplot() displays the distribution of data based on a five-number summary: minimum, first quartile (Q1), median, third quartile (Q3), and maximum.
+		-
+	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000055_Slide3.PNG)
+		- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000055_Slide4.PNG)
+		- #barplot() displays the distribution of data with rectangular bars representing the data's value or frequency (in this example, colMean values)
+		- Note that #NA values are skipped with na.rm=T. If set to False (na.rm=F), calculations in R involving NA would return NA (unless otherwise noted).
+		-
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000055_Slide5.PNG)
+		- #scatterplot displays data points on a horizontal and a vertical axis, based on data taken from the 1st and 2nd arguments in the #plot() function.
+		-
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000055_Slide6.PNG)
+		- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000055_Slide7.PNG)
+		- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide8.PNG)
+		- To achieve a sequential #[[line graph]], data need to be ordered by the x-axis values (in this example, the Akt1 values) before plotting
+		- #sort() returns the sorted values, while #order() returns the row indices of the sorted vector (Akt1 column in this example).
+		- In this example, we first use the order() function to get the row indices of the sorted Akt1 column. We then use these row indices to generate a sorted table (i.e., data frame `sorted`) and plot the line graph accordingly.
+	-
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide10.PNG)
+		- FYI. We will focus on using vector and data frame in this course.
+	-
+- # Section 11: DESeq2- Count normalization
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide11.PNG)
+	-
+- ## 11.1 DESeq2 installation
+	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide12.PNG)
+	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide13.PNG) #code
+	-
+	- ![🖼 Slide14.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide14.PNG)
+	- ![🖼 Slide15.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide15.PNG)
+		- We need to #install #DESeq2 the first-time to use it in RStudio. It involves the following steps:
+			- Checking if the `BiocManager` package is installed, as it is the preferred way to install #Bioconductor packages.
+			- Using `BiocManager::install("DESeq2")` to install DESeq2, with `dependencies=TRUE` to ensure all necessary dependencies are also installed.
+	-
+- ## 11.2 DESeq2's DESeqDataSet object
+	- ![🖼 Slide16.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000057_Slide16.PNG)
+	- ![🖼 Slide17.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000057_Slide17.PNG)
+		- `DESeqDataSet` is the primary data structure used by the DESeq2 package. It consists of three main components:
+		  id:: 65fa4a41-c4af-4a33-9c1e-937534792639
+			- `countData`: A #[[data frame]] containing the raw counts of sequencing reads for each gene (rows) across different samples (columns).
+			- `colData`: A #[[data frame]] containing the #metadata for each sample (e.g., experimental conditions, etc.) #Row names in `colData` must correspond to #column names in `countData`.
+			- `design`: A formula that represents the experimental design. It's used to specify how the count data depends on the variables (column(s)) in `colData`.
+		- This structure allows DESeq2 to fit a model to the count data while accounting for the experimental conditions, enabling downstream analysis (e.g., the identification of differentially expressed genes).

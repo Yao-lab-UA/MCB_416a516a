@@ -1,5 +1,4 @@
-## Cont. from L6
-collapsed:: true
+- collapsed:: true
 	- ![Slide1.JPG](../assets/Slide1_1706977994505_0.JPG) #Slido
 	-
 	- ![Slide2.JPG](../assets/Slide2_1706978008690_0.JPG) #HW1 (QnA)

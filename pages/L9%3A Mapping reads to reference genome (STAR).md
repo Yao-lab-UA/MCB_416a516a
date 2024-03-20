@@ -1,4 +1,4 @@
-## Cont. from L8
+-
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide1.PNG) #Quiz 1
 	-
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/416a516a/L9/Slide2.PNG) #HW1

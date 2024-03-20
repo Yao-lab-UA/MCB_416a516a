@@ -1,4 +1,4 @@
-## Cont. from L10
+-
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240217_203622_Slide1.PNG)
 		- example #HPC #code #SLURM
 		-

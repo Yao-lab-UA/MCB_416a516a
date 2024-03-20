@@ -1,4 +1,4 @@
-## Cont. from L15
+-
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240313_043602_Slide1.PNG)
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240313_043602_Slide2.PNG) #UQ
 	-

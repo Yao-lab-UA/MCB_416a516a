@@ -1,4 +1,4 @@
-## Cont. from L12
+-
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240224_183940_Slide1.PNG)
 		- If you cannot access #HPC via #OnDemand, try the following (in order):
 			- Clear the cache in your brower
