@@ -23,7 +23,7 @@
 	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide10.PNG)
 		- FYI. We will focus on using vector and data frame in this course.
 	-
-- # Section 11: DESeq2- Count normalization
+- # Section 11: DESeq2
 	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000056_Slide11.PNG)
 	-
 - ## 11.1 DESeq2 installation
@@ -36,7 +36,7 @@
 			- Checking if the `BiocManager` package is installed, as it is the preferred way to install #Bioconductor packages.
 			- Using `BiocManager::install("DESeq2")` to install DESeq2, with `dependencies=TRUE` to ensure all necessary dependencies are also installed.
 	-
-- ## 11.2 DESeq2's DESeqDataSet object
+- ## 11.2 DESeqDataSet object
 	- ![🖼 Slide16.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000057_Slide16.PNG)
 	- ![🖼 Slide17.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_000057_Slide17.PNG)
 		- `DESeqDataSet` is the primary data structure used by the DESeq2 package. It consists of three main components:

@@ -9,7 +9,7 @@
 		-
 	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide7.PNG) #UQ
 	-
-- ## 11.2 DESeq2's DESeqDataSet object (cont.)
+- ## 11.2 DESeqDataSet object (cont.)
 	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide8.PNG)
 	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide9.PNG)
 		- {{embed ((65fa4a41-c4af-4a33-9c1e-937534792639))}}

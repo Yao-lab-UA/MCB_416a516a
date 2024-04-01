@@ -1,0 +1,41 @@
+## 11.3 rlog and vst normalization (cont.)
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide1.PNG)
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide2.PNG)
+		- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide3.PNG)
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide4.PNG)
+		- Example of LLMs prompt.
+		- When formulating a #prompt to query #LLMs , keep the following in mind:
+			- **Specify what is known**: Present the background information or context related to your query. This sets the stage for the LLM to understand the scope/parameters of the discussion or analysis.
+			- **Identify what is missing**, if needed: Clearly delineate the gaps in your knowledge. This guides the LLM towards the area where its computational capabilities should be focused.
+			- **Define the task to be performed**: Explicitly state the question you want answered or the task you need the LLM to execute.
+			- The specificity of your prompt directly correlates to the relevance and precision of the information you receive in return. Precise prompts tend to elicit more accurate and helpful responses from the model.
+			-
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide5.PNG) #Slido
+		- #countData in #DESeqDataSet should only contain  **integer** counts
+		-
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide6.PNG)
+	-
+- ## 11.4 Experimental-level QC (after rlog/vst normalization)
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide7.PNG)
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide8.PNG)
+	- #[[technical replicates]] helps ensure that the variability observed is due to biological differences rather than technical error.
+	- #[[biological replicates]] are crucial for capturing biological variability and are necessary to draw reliable conclusions from experiments.
+		- more biological replicates increase the power and robustness of statistical analysis.
+		-
+	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052329_Slide9.PNG)
+		- The number of reads required for different types of RNA-seq experiments: the exact numbers may vary based on the experiment's goals, the complexity of the genome, and the depth of analysis required.
+		-
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052329_Slide10.PNG)
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052329_Slide11.PNG)
+		- Two common statistical methods for measuring #correlation: #Pearson and #Spearman
+		-
+	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052329_Slide12.PNG)
+	-
+	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052329_Slide13.PNG)
+		- #[[hierarchical clustering]] is commonly used in the analysis of gene expression data to identify clusters of samples that exhibit similar expression profiles.
+		- Note the use of a #distance measure based on pairwise #correlations to perform hierarchical clustering, which will result in a #dendrogram.
+		- The #dendrogram visualizes the relationships between samples, with the #height of the branches reflecting the #distance or dissimilarity between samples or clusters.
+		-
+	- ![🖼 Slide14.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052329_Slide14.PNG)
+		- to be explained in the next lecture
+-

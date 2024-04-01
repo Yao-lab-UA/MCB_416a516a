@@ -4,7 +4,7 @@
 	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide3.PNG) #UQ
 		- Note that row names are not data columns
 	-
-- ## 11.2 DESeq2's DESeqDataSet object (cont.)
+- ## 11.2 DESeqDataSet object (cont.)
 	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide4.PNG)
 		- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide5.PNG)
 	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide6.PNG)
@@ -23,7 +23,8 @@
 	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide9.PNG)
 		- Example of using #LLMs to check and troubleshoot code
 		- You can use #LLMs as versatile helpers, but be aware that their answers are not always correct.
-		-
+	-
+- ## 11.3 rlog and vst normalization
 	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide10.PNG)
 		- the #rlog function from the #DESeq2 package is used to stabilize variance across the range of mean values. It normalizes counts based on #[[size factors]] (based on housekeeping genes), applies a log2 transformation, and then shrinks the variance of the low count genes.
 		-
