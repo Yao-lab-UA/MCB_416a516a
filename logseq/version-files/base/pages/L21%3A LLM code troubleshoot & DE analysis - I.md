@@ -31,7 +31,7 @@
 			- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061546_Slide11.PNG)
 				- (FYI) statistical procedures and models for DE analysis in different programs
 				-
-	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061546_Slide12.PNG)
+			- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061546_Slide12.PNG)
 	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061547_Slide13.PNG)
 		- we will explain the source code in detail in the next lecture
 -
