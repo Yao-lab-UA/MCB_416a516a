@@ -15,6 +15,7 @@
 		- {{embed ((65fa4a41-c4af-4a33-9c1e-937534792639))}}
 		-
 		- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024348_Slide10.PNG)
-		- Note: see our example #code, DESeq2.v2, for line-by-line annotations
+			- #DESeq2 #[[flow chart]]
+			- Note: see our example #code, DESeq2.v2, for line-by-line annotations
 		-
 	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240320_024349_Slide11.PNG)

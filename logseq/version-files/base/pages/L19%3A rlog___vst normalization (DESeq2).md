@@ -1,6 +1,8 @@
 -
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide1.PNG)
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide2.PNG)
+		- ==NOTE: check out our example source code for for line-by-line details.==
+		-
 	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide3.PNG) #UQ
 		- Note that row names are not data columns
 	-

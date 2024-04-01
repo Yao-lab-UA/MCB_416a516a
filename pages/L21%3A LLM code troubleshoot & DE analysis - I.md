@@ -1,0 +1,37 @@
+## 11.4 Experimental-level QC (after rlog/vst normalization) (cont.)
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061545_Slide1.PNG)
+		- #troubleshoot the code written by #LLMs
+			- check out our course recording for details
+			-
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061545_Slide2.PNG) #UQ
+	-
+	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061545_Slide3.PNG)
+		- #DESeq2 #[[flow chart]]
+		- ==NOTE: check out our example source code for for line-by-line details.==
+	-
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061545_Slide4.PNG)
+		- Principal Component Analysis (#PCA ) is a statistical tool used for dimensionality reduction, "projecting" the data into fewer dimensions that retain most of the variance within the data.
+		- In our example of RNA-seq data (30,560 genes × 30 samples), PCA can reduce the 30,560 dimensions/features to a smaller set of variables (2 #[[principal components]], i.e., #eigenvectors ) that can explain most of the #variance (e.g., PC1 explains 81% of the variance, indicated by the corresponding #eigenvalues; PC2 is orthogonal to PC1 and captures the next greatest variance, 10%).
+	-
+- ## 11.5 Differential expression (DE) analysis
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061545_Slide5.PNG)
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061545_Slide6.PNG)
+		- Note that DESeq's #rlog and #vst normalization (section II of our example code, which generates normalized counts and corresponding exploratory graphs such as clustering and PCA), and differential expression (#DE ) analysis  (section III of our example code, which identifies a list of DE genes with corresponding statistics), are both started with the #[[raw counts]] embedded in #DESeqDataSet 's count table #countData (section I of our example code).
+		-
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061545_Slide7.PNG)
+		- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061546_Slide8.PNG)
+			- Task 1a of #DE analysis, count normalization
+				- NOTE: in DESeq2, this step of the #DESeq() function does not perform exactly the rlog or vst normalization procedure but normalizes #[[raw counts]] using #[[size factors]], and the results are used in constructing the statistical model in task 1c.
+			-
+		- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061546_Slide9.PNG)
+			- Task 1b of #DE analysis, #dispersion estimation, to obtain the variance-mean dependence in the count data
+			-
+		- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061546_Slide10.PNG)
+			- Task 1c of #DE analysis, fitting a negative binomial GLM model using the results from 1a and 1b above. The details/formula are FYI.
+			- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061546_Slide11.PNG)
+				- (FYI) statistical procedures and models for DE analysis in different programs
+				-
+	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061546_Slide12.PNG)
+	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_061547_Slide13.PNG)
+		- we will explain the source code in detail in the next lecture
+-

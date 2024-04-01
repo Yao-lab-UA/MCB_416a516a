@@ -1,5 +1,7 @@
 ## 11.3 rlog and vst normalization (cont.)
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide1.PNG)
+		- ==NOTE: check out our example source code for for line-by-line details.==
+		-
 	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide2.PNG)
 		- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide3.PNG)
 	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide4.PNG)
@@ -14,7 +16,8 @@
 		- #countData in #DESeqDataSet should only contain  **integer** counts
 		-
 	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide6.PNG)
-	-
+		- #DESeq2 #[[flow chart]]
+		-
 - ## 11.4 Experimental-level QC (after rlog/vst normalization)
 	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide7.PNG)
 	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_052328_Slide8.PNG)
