@@ -18,7 +18,7 @@
 - [[L18: DESeq2: DESeqDataSet]]
 - [[L19: rlog/vst normalization (DESeq2)]]
 - [[L20: LLM prompt/coding & Expt.-level QC]]
-- L21: LLM code troubleshoot & DE analysis - I
+- [[L21: LLM code troubleshoot & DE analysis - I]]
 -
 - DE analysis (with DESeq2) - II
 - Identify enriched pathways in gene lists (g:Profiler)
