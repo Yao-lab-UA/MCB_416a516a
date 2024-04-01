@@ -17,8 +17,7 @@
 - [[L17: (R) Graphs & DESeq2: Intro]]
 - [[L18: DESeq2: DESeqDataSet]]
 - [[L19: rlog/vst normalization (DESeq2)]]
--
-- L20: LLM prompt/coding & Expt.-level QC
+- [[L20: LLM prompt/coding & Expt.-level QC]]
 - L21: LLM code troubleshoot & DE analysis - I
 -
 - DE analysis (with DESeq2) - II
