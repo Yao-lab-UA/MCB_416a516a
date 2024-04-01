@@ -16,9 +16,11 @@
 - [[L16: (R) Data frame (II)]]
 - [[L17: (R) Graphs & DESeq2: Intro]]
 - [[L18: DESeq2: DESeqDataSet]]
+- [[L19: rlog/vst normalization (DESeq2)]]
 -
-- rlog/vst & Differential expression (DE) analysis
-- DE analysis (with DESeq2) - I
+- L20: LLM prompt/coding & Expt.-level QC
+- L21: LLM code troubleshoot & DE analysis - I
+-
 - DE analysis (with DESeq2) - II
 - Identify enriched pathways in gene lists (g:Profiler)
 - Hypergeometric distribution
