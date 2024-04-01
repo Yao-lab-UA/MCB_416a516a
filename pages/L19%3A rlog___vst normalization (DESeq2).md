@@ -1,0 +1,40 @@
+-
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide1.PNG)
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide2.PNG)
+	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide3.PNG) #UQ
+		- Note that row names are not data columns
+	-
+- ## 11.2 DESeq2's DESeqDataSet object (cont.)
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide4.PNG)
+		- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041926_Slide5.PNG)
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide6.PNG)
+		- Currently, examples of popular AI large language models (#LLMs ) include the following:
+			- GPT-4 (chatGPT plus, paid), chatGPT (3.5, free) [openAI]
+			- Claude 3 Opus (paid), Sonnet (free), and Haiku (free) [Anthropic]
+			- Copilot (GPT-4 Turbo, free), Copilot Pro (paid) [Microsoft]
+			- Gemini/Bard (free and paid versions) [Google]
+			-
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide7.PNG)
+		- Note the #prompt example of using #LLMs to generate R code
+		-
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide8.PNG)
+		- Example of using #LLMs to explain R code
+		-
+	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide9.PNG)
+		- Example of using #LLMs to check and troubleshoot code
+		- You can use #LLMs as versatile helpers, but be aware that their answers are not always correct.
+		-
+	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide10.PNG)
+		- the #rlog function from the #DESeq2 package is used to stabilize variance across the range of mean values. It normalizes counts based on #[[size factors]] (based on housekeeping genes), applies a log2 transformation, and then shrinks the variance of the low count genes.
+		-
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide11.PNG)
+		- While absolute variation increases with expression level, relative variation often decreases.
+		- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide12.PNG)
+			- For the fact that variance tends to increase with the mean expression level, think the example of measuring the height of a mountain vs. that of a person using the same instrument (say a ruler or a laser measuring tool), the absolute variance in the measurements of the mountain's height would be much larger than that of the person.
+			- However, the coefficient of variation (CV) would be smaller for the mountain because its height dwarfs the variability. In comparison, for a person, even small errors can represent a larger proportion of the total height, leading to a higher CV.
+			- the signal-to-noise ratio (SNR) is *inversely* correlated with the coefficient of variation (CV) in gene expression analysis
+	-
+	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide13.PNG)
+		- #rlog and #vst functions from DESeq2 are used for #between-sample comparisons, not for within-sample comparisons (like comparing different genes within the same sample), for which normalized counts like RPKM or FPKM are used.
+	-
+	- ![🖼 Slide14.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide14.PNG)
