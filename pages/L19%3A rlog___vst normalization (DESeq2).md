@@ -33,7 +33,7 @@
 		- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide12.PNG)
 			- For the fact that variance tends to increase with the mean expression level, think the example of measuring the height of a mountain vs. that of a person using the same instrument (say a ruler or a laser measuring tool), the absolute variance in the measurements of the mountain's height would be much larger than that of the person.
 			- However, the coefficient of variation (CV) would be smaller for the mountain because its height dwarfs the variability. In comparison, for a person, even small errors can represent a larger proportion of the total height, leading to a higher CV.
-			- the signal-to-noise ratio (SNR) is *inversely* correlated with the coefficient of variation (CV) in gene expression analysis
+			- the signal-to-noise ratio (#SNR ) is *inversely* correlated with the #CV in gene expression analysis
 	-
 	- ![🖼 Slide13.PNG](../assets/storages/logseq-plugin-multiple-assets/20240401_041927_Slide13.PNG)
 		- #rlog and #vst functions from DESeq2 are used for #between-sample comparisons, not for within-sample comparisons (like comparing different genes within the same sample), for which normalized counts like RPKM or FPKM are used.
