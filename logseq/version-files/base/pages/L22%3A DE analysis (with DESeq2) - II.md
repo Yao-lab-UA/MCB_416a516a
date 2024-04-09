@@ -1,0 +1,29 @@
+-
+	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035914_Slide1.PNG)
+		- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide2.PNG)
+		- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide3.PNG) #[[516a project]]
+		-
+	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide4.PNG) #UQ
+	-
+- ## 11.5 Differential expression (DE) analysis (cont.)
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide5.PNG)
+		- genes with no or low expression are #filtered out before #padj calculation -> NA (in padj column)
+			- #padj in DESeq #[[result table]] refers to #Benjamini-Hochberg adjusted p-value, i.e., #FDR (or #Q-value )
+			-
+	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide6.PNG)
+		- #[[volcano plot]] based on DESeq #[[result table]]
+			- x-axis: #log2FoldChange
+			- y-axis: #padj (#FDR )
+			-
+	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide7.PNG)
+	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide8.PNG)
+		- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide9.PNG)
+		- Important concept:  #FDR (Q-value) vs. #p-value
+			- Limitation of #p-value : in studies involving multiple hypothesis tests (e.g., in DE analysis of RNA-seq data, thousands of genes are compared simultaneously), the chance of incorrectly rejecting true null hypothesis (Type I error, false positive) increases with the number of tests performed.
+			- #FDR (false discovery rate) is defined as the expected proportion of false positives among all positive findings (all rejections of the null hypothesis). FDR is performed using the #Benjamini-Hochberg procedure, which is especially useful in the context of multiple hypothesis testing, providing a balance between discovering statistically significant results and controlling for Type I error.
+				- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide10.PNG)
+	-
+	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide11.PNG)
+	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide12.PNG)
+		- Note that "low counts” (filtering threshold in DESeq2, mean count < 1) pertain to raw counts, not normalized counts.
+-

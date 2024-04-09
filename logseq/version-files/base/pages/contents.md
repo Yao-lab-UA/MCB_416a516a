@@ -19,10 +19,10 @@
 - [[L19: rlog/vst normalization (DESeq2)]]
 - [[L20: LLM prompt/coding & Expt.-level QC]]
 - [[L21: LLM code troubleshoot & DE analysis - I]]
+- [[L22: DE analysis (with DESeq2) - II]]
+- [[L23: DE analysis (with DESeq2) - III]]
 -
-- DE analysis (with DESeq2) - II
 - Identify enriched pathways in gene lists (g:Profiler)
-- Hypergeometric distribution
 - Identify enriched pathways in ranked gene lists
   (GSEA)
 - GSEA demo
