@@ -1,13 +1,35 @@
 -
 	- ![🖼 Slide1.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045729_Slide1.PNG)
-	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045729_Slide2.PNG)
+	-
+	- ![🖼 Slide2.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045729_Slide2.PNG) #UQ
+	-
 	- ![🖼 Slide3.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045730_Slide3.PNG)
 	- ![🖼 Slide4.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045730_Slide4.PNG)
-	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045730_Slide5.PNG)
+		- After DESeq(), the #lfcshrink() function can be used to further apply a shrinkage algorithm to the LFC estimates, pulling them towards zero or a specified prior log2 fold change (e.g., in the "apeglm" estimator). This is done using empirical Bayes methods.
+			- There are different shrinkage estimators available in DESeq2, such as "apeglm", "ashr", and "normal", each with its own assumptions and characteristics. The choice of the estimator depends on the specific characteristics of the data and the biological question of interest. (we use normal as default in our example code).
+			- Note that LFC shrinkage is optional and may not always be necessary, especially if the sample size is really large. However, in most cases, shrinkage can improve the reliability and interpretability of the differential expression results.
+			-
+	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045730_Slide5.PNG) #Slido
+	-
 	- ![🖼 Slide6.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045730_Slide6.PNG)
+		- #MA plot: the log2 fold change (M) against the average expression of genes (A) for the two conditions being compared (as defined in `contrast`)
+		-
 	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045730_Slide7.PNG)
+		- Note how is the #EnhancedVolcano function customized to change the displaying labels, adjust padj and log2 fold change thresholds, and label specific genes of interest.
+		-
 	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045730_Slide8.PNG)
+		- A #histogram is generated in this example to visualize the frequency of genes at different `padj` levels
+		-
 	- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045730_Slide9.PNG)
+		- #heatmap here represents the expression patterns of differentially expressed genes across multiple samples.
+			- Note how the #Z-score is used to show the standardization of gene expression data, where each row is scaled to have a mean of zero (mean-centered) and a standard deviation of one. The resulting Z-scores indicate how many standard deviations a value is away from the mean, which is a common approach for visualizing data in heatmaps.
+				- Also note that the Z-score does not necessarily indicate the fold change magnitude (a DE gene may have a large Z-score but small fold change, e.g., with a large sample size).  ==It's important to consider both the fold change level and the statistical significance== (as indicated by the Z-score or adjusted p-value) when interpreting gene expression data.
+		- the function #write.table can be used to export the DESeq2 analysis results to a text file for downstream analysis.
+		-
 	- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045731_Slide10.PNG)
+		- If opening the output table using Excel, note that the 1st row (column names) will be misaligned and needs to be right-shifted by one column.
+		-
 	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045731_Slide11.PNG)
-	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045731_Slide12.PNG)
+		- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_045731_Slide12.PNG)
+		- Make sure you understand the DESeq2 data structure and analysis flowchart regarding how each step is connected and the order in which different functions and analyses are performed.
+			- Learn to modify the code and comments within the script to suit your needs, similar to how one might alter a recipe while cooking.

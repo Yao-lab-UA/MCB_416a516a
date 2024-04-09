@@ -7,6 +7,7 @@
 	-
 - ## 11.5 Differential expression (DE) analysis (cont.)
 	- ![🖼 Slide5.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide5.PNG)
+		- the DESeq #[[result table]], including log2FoldChange and padj etc., is generated based on the negative binomial GLM statistical model of DESeq2
 		- genes with no or low expression are #filtered out before #padj calculation -> NA (in padj column)
 			- #padj in DESeq #[[result table]] refers to #Benjamini-Hochberg adjusted p-value, i.e., #FDR (or #Q-value )
 			-
@@ -17,13 +18,15 @@
 			-
 	- ![🖼 Slide7.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide7.PNG)
 	- ![🖼 Slide8.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035915_Slide8.PNG)
-		- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide9.PNG)
+		- ![🖼 Slide9.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide9.PNG) #Slido
 		- Important concept:  #FDR (Q-value) vs. #p-value
 			- Limitation of #p-value : in studies involving multiple hypothesis tests (e.g., in DE analysis of RNA-seq data, thousands of genes are compared simultaneously), the chance of incorrectly rejecting true null hypothesis (Type I error, false positive) increases with the number of tests performed.
 			- #FDR (false discovery rate) is defined as the expected proportion of false positives among all positive findings (all rejections of the null hypothesis). FDR is performed using the #Benjamini-Hochberg procedure, which is especially useful in the context of multiple hypothesis testing, providing a balance between discovering statistically significant results and controlling for Type I error.
 				- ![🖼 Slide10.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide10.PNG)
 	-
 	- ![🖼 Slide11.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide11.PNG)
+		- Note that #baseMean refers to the size factor-normalized mean counts of all samples in the dataset (in the count table countData), while the other columns are calculated based on the two sample groups defined in `contrast` (D16 and D0 in this example)
+		-
 	- ![🖼 Slide12.PNG](../assets/storages/logseq-plugin-multiple-assets/20240409_035916_Slide12.PNG)
 		- Note that "low counts” (filtering threshold in DESeq2, mean count < 1) pertain to raw counts, not normalized counts.
 -
